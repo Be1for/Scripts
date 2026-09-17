@@ -1,7 +1,83 @@
--- mm2 skins data
-
 return {
-Candy = {
+    Sparkle7 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306913560 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310714089",
+            ItemID = 310714089,
+            ItemName = "Sparkle7",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Vortex = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://235347825",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235371508",
+            ItemID = 235371508,
+            ItemName = "Vortex",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Candy = {
         Complete = true,
         Display = {
             {
@@ -87,7 +163,267 @@ Candy = {
         },
         MeshCount = 1,
     },
-Rainbow_K = {
+    Leaves_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://124090504714382",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=73486056426142",
+            ItemID = 73486056426142,
+            ItemName = "Leaves",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Gothic_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://7758572472",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800253970",
+            ItemID = 7800253970,
+            ItemName = "Gothic",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Meadow_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://107182071164823",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=107321881182350",
+            ItemID = 107321881182350,
+            ItemName = "Meadow",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Elf_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15349698419",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635569893",
+            ItemID = 15635569893,
+            ItemName = "Elf",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Pea = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://162911948",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238545971",
+            ItemID = 238545971,
+            ItemName = "Pea",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    UFOs_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://81729797666928",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=84030107970606",
+            ItemID = 84030107970606,
+            ItemName = "UFOs",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Bluesteel = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=157904876",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=159947939",
+            ItemID = 196750197,
+            ItemName = "Bluesteel",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Rainbow_K = {
         Complete = true,
         Display = {
             {
@@ -150,7 +486,130 @@ Rainbow_K = {
         },
         MeshCount = 0,
     },
-Plasmite = {
+    Candleflame_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://115359559909377",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=90595111293037",
+            ItemID = 90595111293037,
+            ItemName = "Candleflame",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    Candles_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://137012419503995",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=133654810681274",
+            ItemID = 133654810681274,
+            ItemName = "Candles",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Ghosts_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7808358755",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7808362279",
+            ItemID = 7808362279,
+            ItemName = "Wraiths",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Plasmite = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -189,7 +648,209 @@ Plasmite = {
             Rarity = "Legendary",
         },
     },
-SwirlyAxe = {
+    Neon = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=159653652",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=159746637",
+            ItemID = 198566885,
+            ItemName = "Neon",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Gift_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://6121866988",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121867603",
+            ItemID = 6121867603,
+            ItemName = "Wrap",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Sharky_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://18321899067",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322179563",
+            ItemID = 18322179563,
+            ItemName = "Sharky",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Carved_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://5866372800",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866457985",
+            ItemID = 5866457985,
+            ItemName = "Carved",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Snowflakes_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(248, 248, 248),
+                    Material = Enum.Material.Fabric,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://4534835479",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534866065",
+            ItemID = 4534866065,
+            ItemName = "Snowflakes",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    SwirlyAxe = {
         Complete = true,
         Display = {
             {
@@ -253,7 +914,186 @@ SwirlyAxe = {
         },
         MeshCount = 0,
     },
-FlowerwoodGun = {
+    Infected = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(1, 3, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=6978645136",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=200953094",
+            ItemID = 200953094,
+            ItemName = "Infected",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Santa = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5359654461",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331746096",
+            ItemID = 331746096,
+            ItemName = "Santa",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Starry_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://5930583738",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5930731295",
+            ItemID = 5930731295,
+            ItemName = "Starry",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Vines_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091325210",
+            ItemID = 15091325210,
+            ItemName = "Vines",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    CandyCorn2019 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210934082",
+            ItemID = 4210934082,
+            ItemName = "Candy Corn",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    FlowerwoodGun = {
         Complete = true,
         Display = {
             {
@@ -316,7 +1156,37 @@ FlowerwoodGun = {
         },
         MeshCount = 0,
     },
-TheSeer = {
+    StickersX_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://123572826899313",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=127489830827583",
+            ItemID = 127489830827583,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    TheSeer = {
         Complete = true,
         Display = {
             {
@@ -400,7 +1270,130 @@ TheSeer = {
         },
         MeshCount = 1,
     },
-Bloom = {
+    Giftbag_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://6121864116",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121864813",
+            ItemID = 6121864813,
+            ItemName = "Gift Bag",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Gifts_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://4534835908",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534867381",
+            ItemID = 4534867381,
+            ItemName = "Gifts",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Bones_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://89105172362040",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=76461209737867",
+            ItemID = 76461209737867,
+            ItemName = "Bones",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Bloom = {
         Complete = true,
         Display = {
             {
@@ -463,7 +1456,332 @@ Bloom = {
         },
         MeshCount = 0,
     },
-Skulls = {
+    Pumpkin_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15044730839",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091327743",
+            ItemID = 15091327743,
+            ItemName = "Pumpkin",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Frostflame_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://121019096457803",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=104988218477551",
+            ItemID = 104988218477551,
+            ItemName = "Frostflame",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    PolarBear_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://115347930835748",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=120422092957504",
+            ItemID = 120422092957504,
+            ItemName = "Polar Bear",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Snowman_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684787698",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669640152",
+            ItemID = 2669640152,
+            ItemName = "Snowman",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    UFOs_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://101182606016909",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=97641024072972",
+            ItemID = 97641024072972,
+            ItemName = "UFOs",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    TNL = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=201480146",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=201542790",
+            ItemID = 201542790,
+            ItemName = "TNL",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Love_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.355, 3, 0.768),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://10855586895",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12248652835",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12339328595",
+            ItemID = 12339328595,
+            ItemName = "Love",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Xeno_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://101379516858862",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=80492487454400",
+            ItemID = 80492487454400,
+            ItemName = "Xeno",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Skulls = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -504,7 +1822,7 @@ Skulls = {
             Year = "2019",
         },
     },
-XenoGun = {
+    XenoGun = {
         Complete = true,
         Display = {
             {
@@ -568,7 +1886,48 @@ XenoGun = {
         },
         MeshCount = 0,
     },
-Ghostblade = {
+    Cane_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8293557762",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304750295",
+            ItemID = 8304750295,
+            ItemName = "Cane",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Ghostblade = {
         Complete = true,
         Display = {
             {
@@ -654,7 +2013,118 @@ Ghostblade = {
         },
         MeshCount = 1,
     },
-Logchopper = {
+    Darkness_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11217282454",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254081561",
+            ItemID = 11254081561,
+            ItemName = "Darkness",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    CamoKnife = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=6932357946",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183606225",
+            ItemID = 3183606225,
+            ItemName = "Camo",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Neon_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://73839340981831",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=134429631587448",
+            ItemID = 134429631587448,
+            ItemName = "Neon",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Logchopper = {
         Complete = true,
         Display = {
             {
@@ -740,7 +2210,87 @@ Logchopper = {
         },
         MeshCount = 1,
     },
-Phaser = {
+    Zombie = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782551901",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133331875",
+            ItemID = 1133331885,
+            ItemName = "Zombie",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    AduriteGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(99, 95, 98),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 2.02, 1.33),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://162812733",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=175668921",
+            ItemID = 196752289,
+            ItemName = "Adurite",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Phaser = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -779,7 +2329,48 @@ Phaser = {
             Rarity = "Classic",
         },
     },
-BaubleKnifeChroma = {
+    Darkness_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11242038756",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11255507374",
+            ItemID = 11255507374,
+            ItemName = "Darkness",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    BaubleKnifeChroma = {
         Complete = true,
         Display = {
             {
@@ -888,7 +2479,88 @@ BaubleKnifeChroma = {
         },
         MeshCount = 1,
     },
-Lightbringer = {
+    Splat = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "http://www.roblox.com/asset/?id=6932360857",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183639522",
+            ItemID = 3183639522,
+            ItemName = "Splat",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Ornament2 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5366300102",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331745341",
+            ItemID = 331745341,
+            ItemName = "Ornament2",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Lightbringer = {
         Complete = true,
         Display = {
             {
@@ -978,7 +2650,130 @@ Lightbringer = {
         },
         MeshCount = 1,
     },
-GingerbladeChroma = {
+    Elf2017 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://9308754309",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268703023",
+            ItemID = 1268703023,
+            ItemName = "Elf",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    Lights_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4534840659",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534872673",
+            ItemID = 4534872673,
+            ItemName = "Lights",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    PumpkinPatch = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210409792",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210931354",
+            ItemID = 4210931354,
+            ItemName = "Pumpkin Patch",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    GingerbladeChroma = {
         Complete = true,
         Display = {
             {
@@ -1131,7 +2926,7 @@ GingerbladeChroma = {
         },
         MeshCount = 1,
     },
-Emerald = {
+    Emerald = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -1170,7 +2965,130 @@ Emerald = {
             Rarity = "Legendary",
         },
     },
-DeathshardChroma = {
+    WebbedK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210410097",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210949599",
+            ItemID = 4210949599,
+            ItemName = "Webbed",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Coal_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275036203",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304751659",
+            ItemID = 8304751659,
+            ItemName = "Coal",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Cane_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684776996",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669638508",
+            ItemID = 2669638508,
+            ItemName = "Cane",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    DeathshardChroma = {
         Complete = true,
         Display = {
             {
@@ -1300,7 +3218,7 @@ DeathshardChroma = {
         },
         MeshCount = 1,
     },
-SeerChroma = {
+    SeerChroma = {
         Complete = true,
         Display = {
             {
@@ -1415,7 +3333,7 @@ SeerChroma = {
         },
         MeshCount = 1,
     },
-Spectral_K_2021 = {
+    Spectral_K_2021 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -1456,7 +3374,145 @@ Spectral_K_2021 = {
             Year = "2021",
         },
     },
-Plasmablade = {
+    Bats_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://127442391741629",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=71258273720666",
+            ItemID = 71258273720666,
+            ItemName = "Bats",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Iron = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=159707533",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=160201541",
+            ItemID = 196752812,
+            ItemName = "Iron",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Spider_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091399982",
+            ItemID = 15091399982,
+            ItemName = "Spider",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Tulip = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=387874661",
+            ItemID = 387874661,
+            ItemName = "Tulip",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Plasmablade = {
         Complete = true,
         Display = {
             {
@@ -1519,7 +3575,89 @@ Plasmablade = {
         },
         MeshCount = 0,
     },
-Iceflake = {
+    Gifts_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://80884642545249",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=129290011017110",
+            ItemID = 129290011017110,
+            ItemName = "Gifts",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Retro_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://75445127360563",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=85299848190695",
+            ItemID = 85299848190695,
+            ItemName = "Retro",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Iceflake = {
         Complete = true,
         Display = {
             {
@@ -1583,7 +3721,7 @@ Iceflake = {
         },
         MeshCount = 0,
     },
-OrangeSeer = {
+    OrangeSeer = {
         Complete = true,
         Display = {
             {
@@ -1667,7 +3805,216 @@ OrangeSeer = {
         },
         MeshCount = 1,
     },
-Web = {
+    Ghosty = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873080",
+            ItemID = 531873080,
+            ItemName = "Ghosty",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Wavy_K_2024 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16959755393",
+            ItemID = 16959755393,
+            ItemName = "Wavy",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    CandyCorn_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11217550170",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254057417",
+            ItemID = 11254057417,
+            ItemName = "Candy Corn",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Stickers_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://95500762351317",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=98868784444742",
+            ItemID = 98868784444742,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Tree_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635563249",
+            ItemID = 15635563249,
+            ItemName = "Tree",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Skulls_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756610618",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800220325",
+            ItemID = 7800220325,
+            ItemName = "Skulls",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Web = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -1696,7 +4043,48 @@ Web = {
             Year = "2015",
         },
     },
-HeatChroma = {
+    SnakebiteK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210409981",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210939388",
+            ItemID = 4210939388,
+            ItemName = "Snakebite",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    HeatChroma = {
         Complete = true,
         Display = {
             {
@@ -1811,7 +4199,129 @@ HeatChroma = {
         },
         MeshCount = 1,
     },
-Plasmabeam = {
+    Space = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://3183404232",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183607442",
+            ItemID = 3183607442,
+            ItemName = "Space",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    SnowmanGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5538515388",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497603",
+            ItemID = 332497603,
+            ItemName = "Snowman",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2015",
+        },
+    },
+    Ecto = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782411472",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133331679",
+            ItemID = 1133331679,
+            ItemName = "Ecto",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    Plasmabeam = {
         Complete = true,
         Display = {
             {
@@ -1896,7 +4406,169 @@ Plasmabeam = {
         },
         MeshCount = 1,
     },
-GreenFire = {
+    Gingerheart_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://77403934219171",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=115273559455814",
+            ItemID = 115273559455814,
+            ItemName = "Gingerheart",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    CandyCorn_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11226919330",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11255558166",
+            ItemID = 11255558166,
+            ItemName = "Candy Corn",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Krypto = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://155572642",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198458841",
+            ItemID = 198440414,
+            ItemName = "Krypto",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    MummyK2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2513648136",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513733542",
+            ItemID = 2513733542,
+            ItemName = "Mummy",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    GreenFire = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -1937,7 +4609,7 @@ GreenFire = {
             Year = "2017",
         },
     },
-BattleAxe = {
+    BattleAxe = {
         Complete = true,
         Display = {
             {
@@ -2033,7 +4705,7 @@ BattleAxe = {
         },
         MeshCount = 1,
     },
-Minty = {
+    Minty = {
         Complete = true,
         Display = {
             {
@@ -2102,7 +4774,186 @@ Minty = {
         },
         MeshCount = 0,
     },
-SnowcannonChroma = {
+    Butterflies_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "http://www.roblox.com/asset/?id=124763121225655",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=135662872427976",
+            ItemID = 135662872427976,
+            ItemName = "Butterflies",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Moons = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873154",
+            ItemID = 531873154,
+            ItemName = "Moons",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2016",
+        },
+    },
+    Blossom_K_2026 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://139596499078847",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=110160120309916",
+            ItemID = 110160120309916,
+            ItemName = "Blossom",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2026",
+        },
+    },
+    ZombifiedK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210410112",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210928053",
+            ItemID = 4210928053,
+            ItemName = "Zombified",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Cherry = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=155195316",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6711852603",
+            ItemID = 6711852603,
+            ItemName = "Cherry",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    SnowcannonChroma = {
         Complete = true,
         Display = {
             {
@@ -2273,7 +5124,130 @@ SnowcannonChroma = {
         },
         MeshCount = 1,
     },
-ElderwoodKnife = {
+    Snowman_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://8275033129",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304766932",
+            ItemID = 8304766932,
+            ItemName = "Snowman",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Kraken_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=112657470655629",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=116059045830205",
+            ItemID = 116059045830205,
+            ItemName = "Kraken",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    GraveG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.3, 1.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://2514719081",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2513648170",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513731746",
+            ItemID = 2513731746,
+            ItemName = "Grave",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    ElderwoodKnife = {
         Complete = true,
         Display = {
             {
@@ -2359,7 +5333,127 @@ ElderwoodKnife = {
         },
         MeshCount = 1,
     },
-Raygun = {
+    Shaded = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4659587929",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659636085",
+            ItemID = 4659636085,
+            ItemName = "Shaded",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Wrapped_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://73121682334065",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=72638846676083",
+            ItemID = 72638846676083,
+            ItemName = "Wrapped",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Ice = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=161313071",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=191976710",
+            ItemID = 196750668,
+            ItemName = "Ice",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Raygun = {
         Complete = true,
         Display = {
             {
@@ -2485,7 +5579,77 @@ Raygun = {
         },
         MeshCount = 0,
     },
-Pumpking = {
+    Mistletoe_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834394793",
+            ItemID = 11834394793,
+            ItemName = "Mistletoe",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    SlimeK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2513648162",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513734227",
+            ItemID = 2513734227,
+            ItemName = "Slime",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Pumpking = {
         Complete = true,
         Display = {
             {
@@ -2581,7 +5745,48 @@ Pumpking = {
         },
         MeshCount = 1,
     },
-Lugercane = {
+    Gingerbread2017 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=2124721832",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268705527",
+            ItemID = 1268705527,
+            ItemName = "Gingerbread",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2017",
+        },
+    },
+    Lugercane = {
         Complete = true,
         Display = {
             {
@@ -2672,7 +5877,87 @@ Lugercane = {
         },
         MeshCount = 1,
     },
-Sorry = {
+    Mummy = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://315154445",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315155591",
+            ItemID = 315155591,
+            ItemName = "Mummy",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2015",
+        },
+    },
+    Euro = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://240940193",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=305504173",
+            ItemID = 305504173,
+            ItemName = "Euro",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Sorry = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -2711,7 +5996,7 @@ Sorry = {
             Rarity = "Unique",
         },
     },
-ShadowKnife = {
+    ShadowKnife = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -2765,7 +6050,7 @@ ShadowKnife = {
             Rarity = "Classic",
         },
     },
-BaubleKnife = {
+    BaubleKnife = {
         Complete = true,
         Display = {
             {
@@ -2829,7 +6114,7 @@ BaubleKnife = {
         },
         MeshCount = 0,
     },
-PredatorKnife = {
+    PredatorKnife = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -2868,7 +6153,208 @@ PredatorKnife = {
             Rarity = "Legendary",
         },
     },
-WraithGun = {
+    Mummy_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5866365511",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866447521",
+            ItemID = 5866447521,
+            ItemName = "Mummy",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Marley = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473620972",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473625785",
+            ItemID = 473625785,
+            ItemName = "Green",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Ornaments_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://6121862915",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121863515",
+            ItemID = 6121863515,
+            ItemName = "Ornaments",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Roses = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=361630297",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=363352002",
+            ItemID = 363352002,
+            ItemName = "Roses",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Snowman = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5538532923",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331745799",
+            ItemID = 331745799,
+            ItemName = "Snowman",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2015",
+        },
+    },
+    WraithGun = {
         Complete = true,
         Display = {
             {
@@ -2932,7 +6418,7 @@ WraithGun = {
         },
         MeshCount = 0,
     },
-Icebeam = {
+    Icebeam = {
         Complete = true,
         Display = {
             {
@@ -2996,7 +6482,78 @@ Icebeam = {
         },
         MeshCount = 0,
     },
-Constellation_K_2024 = {
+    Snowball_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://81738515769034",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=104416405402940",
+            ItemID = 104416405402940,
+            ItemName = "Snowball",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Santa_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684801913",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669637780",
+            ItemID = 2669637780,
+            ItemName = "Santa",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Constellation_K_2024 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -3037,7 +6594,7 @@ Constellation_K_2024 = {
             Year = "2024",
         },
     },
-Bauble = {
+    Bauble = {
         Complete = true,
         Display = {
             {
@@ -3123,7 +6680,129 @@ Bauble = {
         },
         MeshCount = 1,
     },
-WintersEdge = {
+    Sandy_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://18323743340",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18323752709",
+            ItemID = 18323752709,
+            ItemName = "Sandy",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Abduction_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://125213231050513",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=107510647616718",
+            ItemID = 107510647616718,
+            ItemName = "Abduction",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    VampireG2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.3, 1.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://2513708622",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513742751",
+            ItemID = 2513742751,
+            ItemName = "Vampire",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    WintersEdge = {
         Complete = true,
         Display = {
             {
@@ -3224,7 +6903,48 @@ WintersEdge = {
         },
         MeshCount = 1,
     },
-Fade = {
+    Strawberries_K_2026 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://75968382870233",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=73897192147749",
+            ItemID = 73897192147749,
+            ItemName = "Strawberries",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2026",
+        },
+    },
+    Fade = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -3263,7 +6983,48 @@ Fade = {
             Rarity = "Legendary",
         },
     },
-Rune = {
+    Snowflake_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684804091",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669639913",
+            ItemID = 2669639913,
+            ItemName = "Snowflake",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Rune = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -3303,7 +7064,89 @@ Rune = {
             Season = 1,
         },
     },
-Gingermint_K = {
+    Eyes_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5866358413",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866438542",
+            ItemID = 5866438542,
+            ItemName = "Watcher",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Cracks_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://7758056748",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800254737",
+            ItemID = 7800254737,
+            ItemName = "Cracks",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Gingermint_K = {
         Complete = false,
         Display = {
             {
@@ -3370,7 +7213,7 @@ Gingermint_K = {
         },
         MeshCount = 0,
     },
-Cupid_K_2026 = {
+    Cupid_K_2026 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -3411,7 +7254,89 @@ Cupid_K_2026 = {
             Year = "2026",
         },
     },
-Scythe = {
+    WebbedG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://7572421266",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210936652",
+            ItemID = 4210936652,
+            ItemName = "Webbed",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Wraith_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11226858696",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11255504462",
+            ItemID = 11255504462,
+            ItemName = "Wraith",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Scythe = {
         Complete = true,
         Display = {
             {
@@ -3502,7 +7427,7 @@ Scythe = {
         },
         MeshCount = 1,
     },
-Rainbow_G = {
+    Rainbow_G = {
         Complete = true,
         Display = {
             {
@@ -3565,7 +7490,7 @@ Rainbow_G = {
         },
         MeshCount = 0,
     },
-Hallow = {
+    Hallow = {
         Complete = true,
         Display = {
             {
@@ -3651,7 +7576,89 @@ Hallow = {
         },
         MeshCount = 1,
     },
-Handsaw = {
+    Bones_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5872477763",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5872492951",
+            ItemID = 5872492951,
+            ItemName = "Bones",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2020",
+        },
+    },
+    Coal = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1268280806",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268699677",
+            ItemID = 1268699677,
+            ItemName = "Coal",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    Handsaw = {
         Complete = false,
         Display = {
             {
@@ -3728,7 +7735,7 @@ Handsaw = {
         },
         MeshCount = 0,
     },
-Latte_G_2023 = {
+    Latte_G_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -3768,7 +7775,166 @@ Latte_G_2023 = {
             Season = 1,
         },
     },
-Turkey2023 = {
+    Abstract = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6380059135",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365569428",
+            ItemID = 365569428,
+            ItemName = "Abstract",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Clownfish_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://18321899540",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322183619",
+            ItemID = 18322183619,
+            ItemName = "Clownfish",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Giftwrap_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275035514",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304754179",
+            ItemID = 8304754179,
+            ItemName = "Giftwrap",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Grind = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://240937041",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=305503942",
+            ItemID = 305503942,
+            ItemName = "Grind",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Turkey2023 = {
         Complete = true,
         Display = {
             {
@@ -3933,7 +8099,77 @@ Turkey2023 = {
         },
         MeshCount = 2,
     },
-BattleAxe2 = {
+    Vampire = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873248",
+            ItemID = 531873248,
+            ItemName = "Vampire",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2016",
+        },
+    },
+    Eyeball_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11217645677",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254065007",
+            ItemID = 11254065007,
+            ItemName = "Eyeball",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    BattleAxe2 = {
         Complete = true,
         Display = {
             {
@@ -3997,7 +8233,7 @@ BattleAxe2 = {
         },
         MeshCount = 0,
     },
-TravelerGun = {
+    TravelerGun = {
         Complete = true,
         Display = {
             {
@@ -4061,7 +8297,35 @@ TravelerGun = {
         },
         MeshCount = 0,
     },
-Ripper_G_2020 = {
+    HighTech = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659635055",
+            ItemID = 4659635055,
+            ItemName = "High Tech",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Ripper_G_2020 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -4102,7 +8366,46 @@ Ripper_G_2020 = {
             Year = "2020",
         },
     },
-SunsetKnifeChroma = {
+    Doritos = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621310",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473626740",
+            ItemID = 473626740,
+            ItemName = "Purple",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    SunsetKnifeChroma = {
         Complete = true,
         Display = {
             {
@@ -4234,7 +8537,48 @@ SunsetKnifeChroma = {
         },
         MeshCount = 1,
     },
-Deathshard = {
+    Mummified = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210409851",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210946577",
+            ItemID = 4210946577,
+            ItemName = "Mummified",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Deathshard = {
         Complete = true,
         Display = {
             {
@@ -4333,7 +8677,89 @@ Deathshard = {
         },
         MeshCount = 1,
     },
-SunsetGun = {
+    Jack = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(255, 0, 0),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4002, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.0005, 1, 1),
+                    TextureId = "rbxassetid://2550342275",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315099010",
+            ItemID = 315099010,
+            ItemName = "Jack",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2015",
+        },
+    },
+    Reindeer_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=121944805     ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=122078592955794",
+            ItemID = 122078592955794,
+            ItemName = "Reindeer",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    SunsetGun = {
         Complete = true,
         Display = {
             {
@@ -4442,7 +8868,77 @@ SunsetGun = {
         },
         MeshCount = 1,
     },
-Prismatic = {
+    Meltdown_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091340751",
+            ItemID = 15091340751,
+            ItemName = "Meltdown",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Cracks_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756612787",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800224981",
+            ItemID = 7800224981,
+            ItemName = "Cracks",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Prismatic = {
         Complete = true,
         Display = {
             {
@@ -4527,7 +9023,77 @@ Prismatic = {
         },
         MeshCount = 1,
     },
-SwirlyGun = {
+    Snowman_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834391469",
+            ItemID = 11834391469,
+            ItemName = "Snowman",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Striped_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://89438438706928",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=136747578920542",
+            ItemID = 136747578920542,
+            ItemName = "Striped",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    SwirlyGun = {
         Complete = true,
         Display = {
             {
@@ -4591,7 +9157,7 @@ SwirlyGun = {
         },
         MeshCount = 0,
     },
-ElderwoodKnifeChroma = {
+    ElderwoodKnifeChroma = {
         Complete = true,
         Display = {
             {
@@ -4708,7 +9274,129 @@ ElderwoodKnifeChroma = {
         },
         MeshCount = 1,
     },
-Snowflake = {
+    Jack_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11245572024",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254093910",
+            ItemID = 11254093910,
+            ItemName = "Lantern",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    ["8bit"] = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=159546779  ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            ChinaItemID = 6711880940,
+            Image = "http://www.roblox.com/asset/?id=198453482",
+            ItemID = 198438554,
+            ItemName = "8bit",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Portal_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://5866372960",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866461926",
+            ItemID = 5866461926,
+            ItemName = "Portal",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Snowflake = {
         Complete = true,
         Display = {
             {
@@ -4804,7 +9492,7 @@ Snowflake = {
         },
         MeshCount = 1,
     },
-Disint = {
+    Disint = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -4843,7 +9531,76 @@ Disint = {
             Rarity = "Classic",
         },
     },
-GhostK2018 = {
+    Future = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 2.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=163926951",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=197639041",
+            ItemID = 197638833,
+            ItemName = "Future",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Eyes_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://81682248459741",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=90751163516480",
+            ItemID = 90751163516480,
+            ItemName = "Eyes",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    GhostK2018 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -4872,7 +9629,89 @@ GhostK2018 = {
             Year = "2018",
         },
     },
-Celestial = {
+    Zombie_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756611924",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800222975",
+            ItemID = 7800222975,
+            ItemName = "Zombie",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Santa2017 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1268277801",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268703618",
+            ItemID = 1268703618,
+            ItemName = "Santa",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    Celestial = {
         Complete = true,
         Display = {
             {
@@ -4942,7 +9781,85 @@ Celestial = {
         },
         MeshCount = 0,
     },
-Sakura_K = {
+    Sparkle5 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306909649 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310713235",
+            ItemID = 310713235,
+            ItemName = "Sparkle5",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Marina = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://159899596",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203808190",
+            ItemID = 203808190,
+            ItemName = "Marina",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Sakura_K = {
         Complete = true,
         Display = {
             {
@@ -5005,7 +9922,47 @@ Sakura_K = {
         },
         MeshCount = 0,
     },
-FlowerwoodKnife = {
+    Waves_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://18321898887",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322178053",
+            ItemID = 18322178053,
+            ItemName = "Waves",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    FlowerwoodKnife = {
         Complete = true,
         Display = {
             {
@@ -5068,7 +10025,76 @@ FlowerwoodKnife = {
         },
         MeshCount = 0,
     },
-BaubleChroma = {
+    Painted_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12935208652",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965311567",
+            ItemID = 12965311567,
+            ItemName = "Painted",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Wolf = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873487",
+            ItemID = 531873487,
+            ItemName = "Wolf",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2016",
+        },
+    },
+    BaubleChroma = {
         Complete = true,
         Display = {
             {
@@ -5177,7 +10203,48 @@ BaubleChroma = {
         },
         MeshCount = 1,
     },
-SnowstormChroma = {
+    Webs_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11255255382",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11284147880",
+            ItemID = 11284147880,
+            ItemName = "Webs",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    SnowstormChroma = {
         Complete = true,
         Display = {
             {
@@ -5286,7 +10353,239 @@ SnowstormChroma = {
         },
         MeshCount = 1,
     },
-Candleflame = {
+    Lava_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://107204456338435",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=131417913843701",
+            ItemID = 131417913843701,
+            ItemName = "Lava",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Pumpkin_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5872477622",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5872490600",
+            ItemID = 5872490600,
+            ItemName = "Pumpkin",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Bones = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873816",
+            ItemID = 531873816,
+            ItemName = "Bones",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Eco = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566401",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365567889",
+            ItemID = 365567889,
+            ItemName = "Eco",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Santa_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726466457",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669785184",
+            ItemID = 2669785184,
+            ItemName = "Elf",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Ornament2Gun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5366287766",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497550",
+            ItemID = 332497550,
+            ItemName = "Ornament2",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Candleflame = {
         Complete = true,
         Display = {
             {
@@ -5350,7 +10649,7 @@ Candleflame = {
         },
         MeshCount = 0,
     },
-Jinglegun = {
+    Jinglegun = {
         Complete = true,
         Display = {
             {
@@ -5436,7 +10735,7 @@ Jinglegun = {
         },
         MeshCount = 1,
     },
-TreeGun2023Chroma = {
+    TreeGun2023Chroma = {
         Complete = true,
         Display = {
             {
@@ -5782,7 +11081,128 @@ TreeGun2023Chroma = {
         },
         MeshCount = 6,
     },
-Frozen_G_2025 = {
+    BluesteelGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=161420087",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=162668203",
+            ItemID = 196752379,
+            ItemName = "Bluesteel",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Soda_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://123132745260166",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=89899263078420",
+            ItemID = 89899263078420,
+            ItemName = "Soda",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    ZombieG2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.3, 1.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://2513708627",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513743298",
+            ItemID = 2513743298,
+            ItemName = "Zombie",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Frozen_G_2025 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -5812,7 +11232,213 @@ Frozen_G_2025 = {
             Year = "2025",
         },
     },
-Sugar = {
+    Snowfall_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635568751",
+            ItemID = 15635568751,
+            ItemName = "Snowfall",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    PumpkinPatch_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://92052630861897",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=119626042140839",
+            ItemID = 119626042140839,
+            ItemName = "Pumpkin",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Gingerbread_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834399071",
+            ItemID = 11834399071,
+            ItemName = "Gingerbread",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Checker = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198461230",
+            ItemID = 198443382,
+            ItemName = "Checker",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    ZombieK2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2513708626",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513734908",
+            ItemID = 2513734908,
+            ItemName = "Zombie",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Bleached = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://311711104",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315500879",
+            ItemID = 315500879,
+            ItemName = "Bleached",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Sugar = {
         Complete = true,
         Display = {
             {
@@ -5903,7 +11529,36 @@ Sugar = {
         },
         MeshCount = 1,
     },
-ChromaLightbringer = {
+    Wood_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091401811",
+            ItemID = 15091401811,
+            ItemName = "Wood",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    ChromaLightbringer = {
         Complete = true,
         Display = {
             {
@@ -6024,7 +11679,116 @@ ChromaLightbringer = {
         },
         MeshCount = 1,
     },
-UFOKnife = {
+    HauntedK = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 3, 0.7),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513733741",
+            ItemID = 2513733741,
+            ItemName = "Haunted",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Combat = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=6932358523",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183604570",
+            ItemID = 3183604570,
+            ItemName = "Combat",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    WaterBalloons_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://18323742698",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18323751962",
+            ItemID = 18323751962,
+            ItemName = "Balloons",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    UFOKnife = {
         Complete = true,
         Display = {
             {
@@ -6088,7 +11852,87 @@ UFOKnife = {
         },
         MeshCount = 0,
     },
-SnowDagger = {
+    FallCamo_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://7758737021",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800257544",
+            ItemID = 7800257544,
+            ItemName = "Fall Camo",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Doge = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://159758190 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235371276",
+            ItemID = 235371276,
+            ItemName = "Doge",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    SnowDagger = {
         Complete = true,
         Display = {
             {
@@ -6152,7 +11996,114 @@ SnowDagger = {
         },
         MeshCount = 0,
     },
-Amerilaser = {
+    Carrot = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=387874071",
+            ItemID = 387874071,
+            ItemName = "Carrot",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Cold = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=161309663",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=161309889",
+            ItemID = 196752499,
+            ItemName = "Cold",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Cola = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://320398770",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546400",
+            ItemID = 238546400,
+            ItemName = "Soda",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Amerilaser = {
         Complete = true,
         Display = {
             {
@@ -6241,7 +12192,7 @@ Amerilaser = {
         },
         MeshCount = 1,
     },
-SantasSpirit = {
+    SantasSpirit = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -6282,7 +12233,7 @@ SantasSpirit = {
             Year = "2020",
         },
     },
-TreeGun = {
+    TreeGun = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -6323,7 +12274,196 @@ TreeGun = {
             Year = "2015",
         },
     },
-XenoKnife = {
+    Coal_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834390120",
+            ItemID = 11834390120,
+            ItemName = "Coal",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Frosted_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534831933",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534853444",
+            ItemID = 4534853444,
+            ItemName = "Frosted",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Missing = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://163625649",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198455936",
+            ItemID = 198439692,
+            ItemName = "Missing",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Sparkle9 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306919809 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310715104",
+            ItemID = 310715104,
+            ItemName = "Sparkle9",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    StickersX25 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=121944805     ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=115280072896190",
+            ItemID = 115280072896190,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+            Year = "2025",
+        },
+    },
+    XenoKnife = {
         Complete = true,
         Display = {
             {
@@ -6387,7 +12527,171 @@ XenoKnife = {
         },
         MeshCount = 0,
     },
-Iceblaster = {
+    Sweater = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1268293368",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268704902",
+            ItemID = 1268704902,
+            ItemName = "Sweater",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2017",
+        },
+    },
+    Steel_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15044112684",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091341552",
+            ItemID = 15091341552,
+            ItemName = "Steel",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Pine_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://4534870630",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534871260",
+            ItemID = 4534871260,
+            ItemName = "Pine",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    ZombifiedG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4210410138",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210944924",
+            ItemID = 4210944924,
+            ItemName = "Zombified",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Iceblaster = {
         Complete = true,
         Display = {
             {
@@ -6467,7 +12771,171 @@ Iceblaster = {
         },
         MeshCount = 0,
     },
-Darkshot = {
+    StickersX_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11830420444",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834432971",
+            ItemID = 11834432971,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Forest_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://114741314080418",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=78199422065424",
+            ItemID = 78199422065424,
+            ItemName = "Forest",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Cane = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5359571109",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331140746",
+            ItemID = 331140746,
+            ItemName = "Cane",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2015",
+        },
+    },
+    Witch_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11245959206",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254115609",
+            ItemID = 11254115609,
+            ItemName = "Witchbrew",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Darkshot = {
         Complete = false,
         Display = {
             {
@@ -6534,7 +13002,7 @@ Darkshot = {
         },
         MeshCount = 0,
     },
-TreeKnife2023 = {
+    TreeKnife2023 = {
         Complete = true,
         Display = {
             {
@@ -6829,7 +13297,532 @@ TreeKnife2023 = {
         },
         MeshCount = 6,
     },
-Overseer = {
+    Snowflake_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726449035",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669786515",
+            ItemID = 2669786515,
+            ItemName = "Snowflake",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Coal_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://8275033614",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304769409",
+            ItemID = 8304769409,
+            ItemName = "Coal",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Brains2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210409062",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210929184",
+            ItemID = 4210929184,
+            ItemName = "Brains",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Hazard_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11217121434",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254083234",
+            ItemID = 11254083234,
+            ItemName = "Hazard",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Ghostfire_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11254634864",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11284140034",
+            ItemID = 11284140034,
+            ItemName = "Ghostfire",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    StickersX_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834387858",
+            ItemID = 11834387858,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Stockings_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6123161536",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6123335682",
+            ItemID = 6123335682,
+            ItemName = "Stockings",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Ace = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://178208194",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546577",
+            ItemID = 238546577,
+            ItemName = "Ace",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    Moons_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://87244940102225",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=91446990047399",
+            ItemID = 91446990047399,
+            ItemName = "Moons",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Sweater_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://134310239127931",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=102130993592804",
+            ItemID = 102130993592804,
+            ItemName = "Sweater",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Popsicle_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://13884848877",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Vector3Value",
+                Name = "OriginalPosition",
+                Props = {
+                    Value = Vector3.new(0, 0, 0),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944131578",
+            ItemID = 13944131195,
+            ItemName = "Popsicle",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Reindeer_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://121109734938655",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=109101361674956",
+            ItemID = 109101361674956,
+            ItemName = "Reindeer",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Cookie_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275035982",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304752586",
+            ItemID = 8304752586,
+            ItemName = "Cookie",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Overseer = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -6868,7 +13861,7 @@ Overseer = {
             Rarity = "Legendary",
         },
     },
-Laser = {
+    Laser = {
         Complete = true,
         Display = {
             {
@@ -6952,7 +13945,167 @@ Laser = {
         },
         MeshCount = 1,
     },
-Phantom2022 = {
+    Marble_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12926768989",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965302237",
+            ItemID = 12965302237,
+            ItemName = "Marble",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Dew = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621267",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473626646",
+            ItemID = 473626646,
+            ItemName = "Black",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Carrot_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12928323969",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965307410",
+            ItemID = 12965307410,
+            ItemName = "Carrot",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Stickers_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11217750489",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254067158",
+            ItemID = 11254067158,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Phantom2022 = {
         Complete = false,
         Display = {
             {
@@ -7019,7 +14172,89 @@ Phantom2022 = {
         },
         MeshCount = 0,
     },
-WraithKnife = {
+    Snowflakes_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534831727",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534855045",
+            ItemID = 4534855045,
+            ItemName = "Snowflakes",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Ghosts_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://7758397251",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800251557",
+            ItemID = 7800251557,
+            ItemName = "Wraiths",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    WraithKnife = {
         Complete = true,
         Display = {
             {
@@ -7083,7 +14318,138 @@ WraithKnife = {
         },
         MeshCount = 0,
     },
-Darkbringer = {
+    Elf = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5364286895",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331746317",
+            ItemID = 331746317,
+            ItemName = "Elf",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Sub = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=162016526",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Decal",
+                Name = "Decal",
+                Props = {
+                    Color3 = Color3.fromRGB(255, 255, 255),
+                    Face = Enum.NormalId.Right,
+                    Texture = "rbxassetid://872393925",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=546159250",
+            ItemID = 546159250,
+            ItemName = "Sub",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Snowflakes_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://9308906310",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6123338102",
+            ItemID = 6123338102,
+            ItemName = "Snowflakes",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2020",
+        },
+    },
+    Darkbringer = {
         Complete = true,
         Display = {
             {
@@ -7173,7 +14539,89 @@ Darkbringer = {
         },
         MeshCount = 1,
     },
-Vampire_G_2022 = {
+    Snowman_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15382659346",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635572427",
+            ItemID = 15635572427,
+            ItemName = "Snowman",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Sweater_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684808994",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669640567",
+            ItemID = 2669640567,
+            ItemName = "Sweater",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Vampire_G_2022 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -7214,7 +14662,7 @@ Vampire_G_2022 = {
             Year = "2022",
         },
     },
-TimeKnife = {
+    TimeKnife = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -7268,7 +14716,47 @@ TimeKnife = {
             Rarity = "Classic",
         },
     },
-Cavern_G_2019 = {
+    Bio_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12926766355",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965298174",
+            ItemID = 12965298174,
+            ItemName = "Bio",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Cavern_G_2019 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -7309,7 +14797,7 @@ Cavern_G_2019 = {
             Year = "2019",
         },
     },
-GhostG2018 = {
+    GhostG2018 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -7350,7 +14838,7 @@ GhostG2018 = {
             Year = "2018",
         },
     },
-Slasher = {
+    Slasher = {
         Complete = true,
         Display = {
             {
@@ -7434,7 +14922,47 @@ Slasher = {
         },
         MeshCount = 1,
     },
-Chill = {
+    Jellyfish_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://18321899333",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322181701",
+            ItemID = 18322181701,
+            ItemName = "Jellyfish",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Chill = {
         Complete = true,
         Display = {
             {
@@ -7520,7 +15048,732 @@ Chill = {
         },
         MeshCount = 1,
     },
-Blossom_G = {
+    Turtle_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://18321898428",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322166908",
+            ItemID = 18322166908,
+            ItemName = "Turtle",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Aqua = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://250006854",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501208",
+            ItemID = 315501208,
+            ItemName = "Aqua",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Haunted_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756611602",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800222135",
+            ItemID = 7800222135,
+            ItemName = "Haunted",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Skool = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=178200933",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=295269977",
+            ItemID = 295269977,
+            ItemName = "Skool",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Fall_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://72560612536240",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=78153346812503",
+            ItemID = 78153346812503,
+            ItemName = "Fall",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Lights_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://80557940854587",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=104258636970738",
+            ItemID = 104258636970738,
+            ItemName = "Lights",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Wraith_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11215449757",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254118399",
+            ItemID = 11254118399,
+            ItemName = "Wraith",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Giftbag_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6121846201",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121847170",
+            ItemID = 6121847170,
+            ItemName = "Gift Bag",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Sweater_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://83785504897240",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=118557229750245",
+            ItemID = 118557229750245,
+            ItemName = "Sweater",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Pine_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534830880",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534855710",
+            ItemID = 4534855710,
+            ItemName = "Pine",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Sparkle4 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306917565 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310712788",
+            ItemID = 310712788,
+            ItemName = "Sparkle4",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Leaves_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://105437948088593",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=129970927613267",
+            ItemID = 129970927613267,
+            ItemName = "Leaves",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Asteroid = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=476142876",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=476599365",
+            ItemID = 476599365,
+            ItemName = "Asteroid",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Starry_K_2026 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://98911990727243",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=130537925107449",
+            ItemID = 130537925107449,
+            ItemName = "Starry",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2026",
+        },
+    },
+    Bats_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5930584000",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5930729222",
+            ItemID = 5930729222,
+            ItemName = "Bats",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Carved_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5866356691",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866436906",
+            ItemID = 5866436906,
+            ItemName = "Carved",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Gingerbread_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://77398327971959",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=74908113882525",
+            ItemID = 74908113882525,
+            ItemName = "Gingerbread",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Nightfire = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4659577665",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659626966",
+            ItemID = 4659626966,
+            ItemName = "Nightfire",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Holly_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726425310",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669786261",
+            ItemID = 2669786261,
+            ItemName = "Holly",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Blossom_G = {
         Complete = true,
         Display = {
             {
@@ -7605,7 +15858,7 @@ Blossom_G = {
         },
         MeshCount = 1,
     },
-Nebula = {
+    Nebula = {
         Complete = true,
         Display = {
             {
@@ -7668,7 +15921,168 @@ Nebula = {
         },
         MeshCount = 0,
     },
-Gingerscope = {
+    Santa_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15349904283",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635550625",
+            ItemID = 15635550625,
+            ItemName = "Santa",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Floral_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://18323742549",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18323751219",
+            ItemID = 18323751219,
+            ItemName = "Floral",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Cardboard = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://159435782",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235366729",
+            ItemID = 235366729,
+            ItemName = "Cardboard",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Ghosts_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://128247285156176",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=134681523511387",
+            ItemID = 134681523511387,
+            ItemName = "Ghosts",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Gingerscope = {
         Complete = true,
         Display = {
             {
@@ -7827,7 +16241,36 @@ Gingerscope = {
         },
         MeshCount = 1,
     },
-Pearl_G = {
+    Candied_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834384755",
+            ItemID = 11834384755,
+            ItemName = "Candied",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Pearl_G = {
         Complete = true,
         Display = {
             {
@@ -7890,7 +16333,48 @@ Pearl_G = {
         },
         MeshCount = 0,
     },
-Eggblade = {
+    Brains_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11254925304",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11284145298",
+            ItemID = 11284145298,
+            ItemName = "Brains",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Eggblade = {
         Complete = true,
         Display = {
             {
@@ -7953,7 +16437,157 @@ Eggblade = {
         },
         MeshCount = 0,
     },
-Hallowscythe = {
+    RBKnife = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5984754897",
+            ItemID = 5984754897,
+            ItemName = "RB Knife",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Apoc_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11228269165",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11255501940",
+            ItemID = 11255501940,
+            ItemName = "Apocalypse",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    DeepSea = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=4659571247",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659634072",
+            ItemID = 4659634072,
+            ItemName = "Deep Sea",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Coal_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684806680",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669638285",
+            ItemID = 2669638285,
+            ItemName = "Coal",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Hallowscythe = {
         Complete = true,
         Display = {
             {
@@ -8017,7 +16651,128 @@ Hallowscythe = {
         },
         MeshCount = 0,
     },
-TidesChroma = {
+    Icicles_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684779428",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669639638",
+            ItemID = 2669639638,
+            ItemName = "Icicles",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    Infected_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11217988441",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254175272",
+            ItemID = 11254175272,
+            ItemName = "Infected",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Hive = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5489009974",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501434",
+            ItemID = 315501434,
+            ItemName = "Hive",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    TidesChroma = {
         Complete = true,
         Display = {
             {
@@ -8142,7 +16897,48 @@ TidesChroma = {
         },
         MeshCount = 1,
     },
-TravelerAxe = {
+    Stickers_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://89311097227409",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=108122054293502",
+            ItemID = 108122054293502,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    TravelerAxe = {
         Complete = true,
         Display = {
             {
@@ -8206,7 +17002,7 @@ TravelerAxe = {
         },
         MeshCount = 0,
     },
-IceShard = {
+    IceShard = {
         Complete = true,
         Display = {
             {
@@ -8302,7 +17098,88 @@ IceShard = {
         },
         MeshCount = 1,
     },
-Palms_K_2024 = {
+    PumpkinPie_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=15320084464",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15413117611",
+            ItemID = 15413117611,
+            ItemName = "Pumpkin Pie",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Igloo_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://126697433046307",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=73203940450745",
+            ItemID = 73203940450745,
+            ItemName = "Igloo",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Palms_K_2024 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -8342,7 +17219,215 @@ Palms_K_2024 = {
             Season = 1,
         },
     },
-Gun1 = {
+    Fanta = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621067",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473626025",
+            ItemID = 473626025,
+            ItemName = "Orange",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    MoltenKnife = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://234944774",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235371809",
+            ItemID = 235371809,
+            ItemName = "Molten",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Clown_G = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4663058089",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659627976",
+            ItemID = 4659627976,
+            ItemName = "Clown",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Denis = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=162016526",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Decal",
+                Name = "Decal",
+                Props = {
+                    Color3 = Color3.fromRGB(255, 255, 255),
+                    Face = Enum.NormalId.Right,
+                    Texture = "rbxassetid://872382723",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=546161062",
+            ItemID = 546161062,
+            ItemName = "Denis",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    GingerGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5353677573",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497038",
+            ItemID = 332497038,
+            ItemName = "Ginger",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2015",
+        },
+    },
+    Gun1 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -8381,7 +17466,46 @@ Gun1 = {
             Rarity = "Classic",
         },
     },
-Ocean_G = {
+    Musical = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566387",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365569566",
+            ItemID = 365569566,
+            ItemName = "Musical",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Ocean_G = {
         Complete = true,
         Display = {
             {
@@ -8466,7 +17590,198 @@ Ocean_G = {
         },
         MeshCount = 1,
     },
-GoldenGun = {
+    Nuke_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://12936824008",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965335931",
+            ItemID = 12965335931,
+            ItemName = "Nuke",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    ToxicG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://9309270792",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513742519",
+            ItemID = 2513742519,
+            ItemName = "Toxic",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    Gingercookie_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://112196863510306",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=99160839686845",
+            ItemID = 99160839686845,
+            ItemName = "Gingercookie",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Snowman_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275035798",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304753468",
+            ItemID = 8304753468,
+            ItemName = "Snowman",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Sparkle10 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306921666 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310715768",
+            ItemID = 310715768,
+            ItemName = "Sparkle10",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    GoldenGun = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -8505,7 +17820,89 @@ GoldenGun = {
             Rarity = "Classic",
         },
     },
-GemstoneChroma = {
+    Present_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://15382053242",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635553149",
+            ItemID = 15635553149,
+            ItemName = "Present",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Coal_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11809114380",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834434264",
+            ItemID = 11834434264,
+            ItemName = "Coal",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    GemstoneChroma = {
         Complete = true,
         Display = {
             {
@@ -8621,7 +18018,7 @@ GemstoneChroma = {
         },
         MeshCount = 1,
     },
-WatergunChroma = {
+    WatergunChroma = {
         Complete = true,
         Display = {
             {
@@ -8729,7 +18126,87 @@ WatergunChroma = {
         },
         MeshCount = 1,
     },
-AuroraGun = {
+    Hazmat = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://311358906",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501297",
+            ItemID = 315501297,
+            ItemName = "Hazmat",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Monster_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://136318121608837",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=109292073070223",
+            ItemID = 109292073070223,
+            ItemName = "Monster",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    AuroraGun = {
         Complete = true,
         Display = {
             {
@@ -8793,7 +18270,158 @@ AuroraGun = {
         },
         MeshCount = 0,
     },
-Arctic_K_2022 = {
+    PumpkinPatch_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://134888889060353",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=117088166092009",
+            ItemID = 117088166092009,
+            ItemName = "Pumpkin Patch",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Skyline_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://138096730619443",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=75608370390005",
+            ItemID = 75608370390005,
+            ItemName = "Skyline",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Circuit = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://155356565  ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235366945",
+            ItemID = 235366945,
+            ItemName = "Circuit",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Bones2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://4210405561",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210926347",
+            ItemID = 4210926347,
+            ItemName = "Bones",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Arctic_K_2022 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -8822,7 +18450,7 @@ Arctic_K_2022 = {
             Year = "2022",
         },
     },
-YellowSeer = {
+    YellowSeer = {
         Complete = true,
         Display = {
             {
@@ -8906,7 +18534,7 @@ YellowSeer = {
         },
         MeshCount = 1,
     },
-Traveler_G_2023 = {
+    Traveler_G_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -8947,7 +18575,198 @@ Traveler_G_2023 = {
             Year = "2023",
         },
     },
-ConstellationChroma = {
+    Branches = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210409800",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210943691",
+            ItemID = 4210943691,
+            ItemName = "Branches",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Eyes_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://5866372450",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866459380",
+            ItemID = 5866459380,
+            ItemName = "Watcher",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Cheddar = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://160274812",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203808317",
+            ItemID = 203808317,
+            ItemName = "Cheddar",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Watcher_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756613596",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800227475",
+            ItemID = 7800227475,
+            ItemName = "Watcher",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Frozen_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635556891",
+            ItemID = 15635556891,
+            ItemName = "Frozen",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    ConstellationChroma = {
         Complete = true,
         Display = {
             {
@@ -9056,7 +18875,7 @@ ConstellationChroma = {
         },
         MeshCount = 1,
     },
-Waves_K = {
+    Waves_K = {
         Complete = true,
         Display = {
             {
@@ -9119,7 +18938,7 @@ Waves_K = {
         },
         MeshCount = 0,
     },
-SunsetKnife = {
+    SunsetKnife = {
         Complete = true,
         Display = {
             {
@@ -9228,7 +19047,46 @@ SunsetKnife = {
         },
         MeshCount = 1,
     },
-ZombieBat = {
+    Passion = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://363139004",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=363150334",
+            ItemID = 363150334,
+            ItemName = "Passion",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    ZombieBat = {
         Complete = true,
         Display = {
             {
@@ -9292,7 +19150,117 @@ ZombieBat = {
         },
         MeshCount = 0,
     },
-FangChroma = {
+    Paper = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://179035664 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235366870",
+            ItemID = 235366870,
+            ItemName = "Paper",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Xeno_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://88277879999522",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=139755862211442",
+            ItemID = 139755862211442,
+            ItemName = "Xeno",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    WrappedGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5366254539",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497103",
+            ItemID = 332497103,
+            ItemName = "Wrapped",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2015",
+        },
+    },
+    FangChroma = {
         Complete = true,
         Display = {
             {
@@ -9422,7 +19390,46 @@ FangChroma = {
         },
         MeshCount = 1,
     },
-Chromatic_K_2023 = {
+    Damp = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=161673042",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198461253",
+            ItemID = 198443956,
+            ItemName = "Damp",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Chromatic_K_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -9462,7 +19469,156 @@ Chromatic_K_2023 = {
             Season = 1,
         },
     },
-RedLuger = {
+    DefaultKnife = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=121944805",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://584555920",
+            ItemID = 196750384,
+            ItemName = "Default Knife",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    XmasStickers_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275034832",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304755417",
+            ItemID = 8304755417,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Brains = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873956",
+            ItemID = 531873956,
+            ItemName = "Brains",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Sparkle6 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306915414 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310713648",
+            ItemID = 310713648,
+            ItemName = "Sparkle6",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    RedLuger = {
         Complete = true,
         Display = {
             {
@@ -9553,7 +19709,86 @@ RedLuger = {
         },
         MeshCount = 1,
     },
-Bleed = {
+    BigKill = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=159963965",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=162669041",
+            ItemID = 196752330,
+            ItemName = "Big Kill",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Carrot_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://16845528588",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16959771850",
+            ItemID = 16959771850,
+            ItemName = "Carrot",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Bleed = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -9594,7 +19829,7 @@ Bleed = {
             Year = "2015",
         },
     },
-Flames = {
+    Flames = {
         Complete = true,
         Display = {
             {
@@ -9731,7 +19966,89 @@ Flames = {
         },
         MeshCount = 1,
     },
-EternalCane = {
+    Snowman_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11830604534",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834436620",
+            ItemID = 11834436620,
+            ItemName = "Snowman",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    CandySwirl_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(248, 248, 248),
+                    Material = Enum.Material.Fabric,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://4534836730",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534874602",
+            ItemID = 4534874602,
+            ItemName = "Candy Swirl",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    EternalCane = {
         Complete = true,
         Display = {
             {
@@ -9817,7 +20134,7 @@ EternalCane = {
         },
         MeshCount = 1,
     },
-PurpleSeer = {
+    PurpleSeer = {
         Complete = true,
         Display = {
             {
@@ -9901,7 +20218,214 @@ PurpleSeer = {
         },
         MeshCount = 1,
     },
-Eternal2 = {
+    Toy_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 0.8755),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://13905642635",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Vector3Value",
+                Name = "OriginalPosition",
+                Props = {
+                    Value = Vector3.new(0, 0, 0),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944153112",
+            ItemID = 13944152795,
+            ItemName = "Toy",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Prism = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(248, 248, 248),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=297795989",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=306046703",
+            ItemID = 306046703,
+            ItemName = "Prism",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Ritual_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://122499606241450",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=122021199074749",
+            ItemID = 122021199074749,
+            ItemName = "Ritual",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    LMFAO = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621215",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473626473",
+            ItemID = 473626473,
+            ItemName = "Pink",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    SnakebiteG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://9309364596",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210925026",
+            ItemID = 4210925026,
+            ItemName = "Snakebite",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    Eternal2 = {
         Complete = true,
         Display = {
             {
@@ -9985,7 +20509,48 @@ Eternal2 = {
         },
         MeshCount = 1,
     },
-EliteGreen = {
+    Snowy = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5538538671",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332011125",
+            ItemID = 332011125,
+            ItemName = "Snowy",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2015",
+        },
+    },
+    EliteGreen = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -10026,7 +20591,34 @@ EliteGreen = {
             Year = "2015",
         },
     },
-HeartWand = {
+    Patrick = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=383476085",
+            ItemID = 383476085,
+            ItemName = "Patrick",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    HeartWand = {
         Complete = true,
         Display = {
             {
@@ -10097,7 +20689,233 @@ HeartWand = {
         },
         MeshCount = 0,
     },
-Icecracker_K_2020 = {
+    Static = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566391",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365568163",
+            ItemID = 365568163,
+            ItemName = "Static",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Glowy_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091403551",
+            ItemID = 15091403551,
+            ItemName = "Glowy",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Star = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://161642996",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203807904",
+            ItemID = 203807904,
+            ItemName = "Star",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Whiteout = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=191784815",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=191788694",
+            ItemID = 196751515,
+            ItemName = "Whiteout",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    XmasStickers_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://8275033309",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304770115",
+            ItemID = 8304770115,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Alex = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://545604317",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=546159020",
+            ItemID = 546159020,
+            ItemName = "Alex",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Icecracker_K_2020 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -10138,7 +20956,48 @@ Icecracker_K_2020 = {
             Year = "2020",
         },
     },
-LugerChroma = {
+    Stickers_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://103668715368570",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=120248733900674",
+            ItemID = 120248733900674,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    LugerChroma = {
         Complete = true,
         Display = {
             {
@@ -10258,7 +21117,210 @@ LugerChroma = {
         },
         MeshCount = 1,
     },
-Bioblade = {
+    RainbowGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "http://www.roblox.com/asset/?id=6932359567",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183640145",
+            ItemID = 3183640145,
+            ItemName = "Rainbow",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Peppermint_G_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "http://www.roblox.com/asset/?id=91723031",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=73148873488539",
+            ItemID = 73148873488539,
+            ItemName = "Peppermint",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Snowman_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://75066955538535",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=85751270338066",
+            ItemID = 85751270338066,
+            ItemName = "Snowman",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Painted_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://12937817240",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965344675",
+            ItemID = 12965344675,
+            ItemName = "Painted",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Gingerbread_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://6121859173",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121860619",
+            ItemID = 6121860619,
+            ItemName = "Gingerbread",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Bioblade = {
         Complete = true,
         Display = {
             {
@@ -10326,7 +21388,87 @@ Bioblade = {
         },
         MeshCount = 0,
     },
-Constellation = {
+    Clownfish_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://18321972771",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322197952",
+            ItemID = 18322197952,
+            ItemName = "Clownfish",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Fragile_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12936083164",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965294432",
+            ItemID = 12965294432,
+            ItemName = "Fragile",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Constellation = {
         Complete = true,
         Display = {
             {
@@ -10396,7 +21538,134 @@ Constellation = {
         },
         MeshCount = 0,
     },
-Tides = {
+    Gingerbread_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6121849468",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121850031",
+            ItemID = 6121850031,
+            ItemName = "Gingerbread",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Gifted = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=190131936",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=197627734",
+            ItemID = 197626358,
+            ItemName = "Gifted",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Sunset_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 0.8755),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://13896017136",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Vector3Value",
+                Name = "OriginalPosition",
+                Props = {
+                    Value = Vector3.new(0, 0, 0),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944156090",
+            ItemID = 13944155639,
+            ItemName = "Sun",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Tides = {
         Complete = true,
         Display = {
             {
@@ -10490,7 +21759,7 @@ Tides = {
         },
         MeshCount = 1,
     },
-Ginger_K_2018 = {
+    Ginger_K_2018 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -10531,7 +21800,295 @@ Ginger_K_2018 = {
             Year = "2018",
         },
     },
-Cursed_G_2024 = {
+    Korblox = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://313561541",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501501",
+            ItemID = 315501501,
+            ItemName = "Korblox",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Cane_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726741218",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669785546",
+            ItemID = 2669785546,
+            ItemName = "Cane",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    Floral_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://13894957068",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Vector3Value",
+                Name = "OriginalPosition",
+                Props = {
+                    Value = Vector3.new(0, 0, 0),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944135218",
+            ItemID = 13944134705,
+            ItemName = "Floral",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Sweet_K_2026 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://139481558107907",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=113677688954146",
+            ItemID = 113677688954146,
+            ItemName = "Yummy",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2026",
+        },
+    },
+    Adurite = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=192482160",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=192492943",
+            ItemID = 196749885,
+            ItemName = "Adurite",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Starfish_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://18321898656",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322176343",
+            ItemID = 18322176343,
+            ItemName = "Starfish",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    CandyCorn_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://110799536201694",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=117473869340749",
+            ItemID = 117473869340749,
+            ItemName = "Candy Corn",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Cursed_G_2024 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -10572,7 +22129,48 @@ Cursed_G_2024 = {
             Year = "2024",
         },
     },
-Icedriller_G_2020 = {
+    Gingerbread_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://86777384953188",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=134478959354477",
+            ItemID = 134478959354477,
+            ItemName = "Gingerbread",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Icedriller_G_2020 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -10613,7 +22211,7 @@ Icedriller_G_2020 = {
             Year = "2020",
         },
     },
-Fang = {
+    Fang = {
         Complete = true,
         Display = {
             {
@@ -10712,7 +22310,7 @@ Fang = {
         },
         MeshCount = 1,
     },
-Energized_K_2025 = {
+    Energized_K_2025 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -10753,7 +22351,48 @@ Energized_K_2025 = {
             Year = "2025",
         },
     },
-SawChroma = {
+    GreenMarble = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782387127",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133366830",
+            ItemID = 1133366830,
+            ItemName = "Green Marble",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2017",
+        },
+    },
+    SawChroma = {
         Complete = true,
         Display = {
             {
@@ -10868,7 +22507,7 @@ SawChroma = {
         },
         MeshCount = 1,
     },
-Heat = {
+    Heat = {
         Complete = true,
         Display = {
             {
@@ -10952,7 +22591,89 @@ Heat = {
         },
         MeshCount = 1,
     },
-SnowDaggerChroma = {
+    VampireK2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2513708625",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513734708",
+            ItemID = 2513734708,
+            ItemName = "Vampire",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    Ghosts_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://5866372208",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866465099",
+            ItemID = 5866465099,
+            ItemName = "Ghosts",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2020",
+        },
+    },
+    SnowDaggerChroma = {
         Complete = true,
         Display = {
             {
@@ -11061,7 +22782,200 @@ SnowDaggerChroma = {
         },
         MeshCount = 1,
     },
-Icewing = {
+    Phantom = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782537628",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133332075",
+            ItemID = 1133332075,
+            ItemName = "Phantom",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    Zombified_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11218741536",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254182560",
+            ItemID = 11254182560,
+            ItemName = "Zombified",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Ribbons_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275035072",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304754882",
+            ItemID = 8304754882,
+            ItemName = "Ribbons",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Spearmint_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://73372556711687",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=98506456649552",
+            ItemID = 98506456649552,
+            ItemName = "Spearmint",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Ribbon_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635552019",
+            ItemID = 15635552019,
+            ItemName = "Ribbon",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Icewing = {
         Complete = true,
         Display = {
             {
@@ -11149,7 +23063,75 @@ Icewing = {
         },
         MeshCount = 1,
     },
-Aquarium_G_2025 = {
+    Stars_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635559978",
+            ItemID = 15635559978,
+            ItemName = "Stars",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Hacker = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://198413638",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203819271",
+            ItemID = 203819271,
+            ItemName = "Hacker",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    Aquarium_G_2025 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -11179,7 +23161,185 @@ Aquarium_G_2025 = {
             Year = "2025",
         },
     },
-Beach_K_2023 = {
+    Aurora_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=4534843833",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534875165",
+            ItemID = 4534875165,
+            ItemName = "Aurora",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    Canes_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635574962",
+            ItemID = 15635574962,
+            ItemName = "Canes",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Clown = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://197196512",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501118",
+            ItemID = 315501118,
+            ItemName = "Clown",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Apoc_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11218500706",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254172968",
+            ItemID = 11254172968,
+            ItemName = "Apocalypse",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Spring_K_2024 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16959775902",
+            ItemID = 16959775902,
+            ItemName = "Spring",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Beach_K_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -11226,7 +23386,209 @@ Beach_K_2023 = {
             Season = 1,
         },
     },
-Gemstone = {
+    Aid = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://320398676",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203807397",
+            ItemID = 203807397,
+            ItemName = "Juice",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Ornament1 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=331744475",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331745428",
+            ItemID = 331745428,
+            ItemName = "Ornament",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Treats_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://117148660034316",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=115298865715727",
+            ItemID = 115298865715727,
+            ItemName = "Treats",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Leaf = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=4659588788",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659636452",
+            ItemID = 4659636452,
+            ItemName = "Leaf",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Lights_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://71217678785248",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=71228862432065",
+            ItemID = 71228862432065,
+            ItemName = "Lights",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Gemstone = {
         Complete = true,
         Display = {
             {
@@ -11311,7 +23673,87 @@ Gemstone = {
         },
         MeshCount = 1,
     },
-Pixel = {
+    Wrapped_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2672196316",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669640357",
+            ItemID = 2669640357,
+            ItemName = "Wrapped",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Ollie = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://240941633",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=305504399",
+            ItemID = 305504399,
+            ItemName = "Ollie",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Pixel = {
         Complete = true,
         Display = {
             {
@@ -11405,7 +23847,116 @@ Pixel = {
         },
         MeshCount = 1,
     },
-VampiresEdge = {
+    Blossom = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=363150561",
+            ItemID = 363150561,
+            ItemName = "Blossom",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    HauntedHouse_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://96264372471629",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=90194465176219",
+            ItemID = 90194465176219,
+            ItemName = "Haunted",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Bats_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://116130292497156",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=140366567839959",
+            ItemID = 140366567839959,
+            ItemName = "Bats",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    VampiresEdge = {
         Complete = true,
         Display = {
             {
@@ -11469,7 +24020,87 @@ VampiresEdge = {
         },
         MeshCount = 0,
     },
-SantasMagic = {
+    RbxScary_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://14967635510",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=14967668214",
+            ItemID = 14967668214,
+            ItemName = "Ghoulish",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Wooden = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://183053133",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546356",
+            ItemID = 238546356,
+            ItemName = "Wooden",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    SantasMagic = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -11510,7 +24141,128 @@ SantasMagic = {
             Year = "2019",
         },
     },
-ElderwoodGun = {
+    Tailslide = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://240942385",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=305506822",
+            ItemID = 305506822,
+            ItemName = "Tailslide",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    HauntedG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2513648133",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513741901",
+            ItemID = 2513741901,
+            ItemName = "Haunted",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Sweater_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726377361",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669787088",
+            ItemID = 2669787088,
+            ItemName = "Sweater",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    ElderwoodGun = {
         Complete = true,
         Display = {
             {
@@ -11579,7 +24331,87 @@ ElderwoodGun = {
         },
         MeshCount = 0,
     },
-JD = {
+    Magma_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756613022",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800225996",
+            ItemID = 7800225996,
+            ItemName = "Magma",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Donut = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=161529618",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235366815",
+            ItemID = 235366815,
+            ItemName = "Donut",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    JD = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -11618,7 +24450,48 @@ JD = {
             Rarity = "Legendary",
         },
     },
-Luger = {
+    Peppermint_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://120181028268113",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=84605926178412",
+            ItemID = 84605926178412,
+            ItemName = "Peppermint",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Luger = {
         Complete = true,
         Display = {
             {
@@ -11707,7 +24580,46 @@ Luger = {
         },
         MeshCount = 1,
     },
-IceDragon = {
+    Imbued = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=156263287",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=162668312",
+            ItemID = 196752718,
+            ItemName = "Imbued",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    IceDragon = {
         Complete = true,
         Display = {
             {
@@ -11808,7 +24720,116 @@ IceDragon = {
         },
         MeshCount = 1,
     },
-Frozen_K_2025 = {
+    Cat_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://7759004533",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800253444",
+            ItemID = 7800253444,
+            ItemName = "Cat",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Steel_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091405483",
+            ItemID = 15091405483,
+            ItemName = "Steel",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Love = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=192527236",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=196750845",
+            ItemID = 196750845,
+            ItemName = "Love",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Frozen_K_2025 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -11849,7 +24870,47 @@ Frozen_K_2025 = {
             Year = "2025",
         },
     },
-Elite = {
+    Popsicle_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://18321970792",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322191060",
+            ItemID = 18322191060,
+            ItemName = "Popsicle",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Elite = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -11888,7 +24949,46 @@ Elite = {
             Rarity = "Legendary",
         },
     },
-Spectre2022 = {
+    Bacon = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://178240361",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546467",
+            ItemID = 238546467,
+            ItemName = "Bacon",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    Spectre2022 = {
         Complete = true,
         Display = {
             {
@@ -11974,7 +25074,321 @@ Spectre2022 = {
         },
         MeshCount = 1,
     },
-Universe = {
+    Gingerbread_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.4, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://11110689222",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534872116",
+            ItemID = 4534872116,
+            ItemName = "Gingerbread",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    SilentNight_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6121850778",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121851313",
+            ItemID = 6121851313,
+            ItemName = "Silent Night",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2020",
+        },
+    },
+    CaneGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5359589686",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497187",
+            ItemID = 332497187,
+            ItemName = "Cane",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2015",
+        },
+    },
+    Xbox = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://450680781",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=439325100",
+            ItemID = 439325100,
+            ItemName = "Xbox",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Infected_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11227996367",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11255502768",
+            ItemID = 11255502768,
+            ItemName = "Infected",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Hearts_K_2026 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://112048035793774",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=99939659856909",
+            ItemID = 99939659856909,
+            ItemName = "Hearts",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2026",
+        },
+    },
+    CandySwirl_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534829449",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534860226",
+            ItemID = 4534860226,
+            ItemName = "Candy Swirl",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    Ghosts_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091326116",
+            ItemID = 15091326116,
+            ItemName = "Ghosts",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Universe = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12013,7 +25427,130 @@ Universe = {
             Rarity = "Legendary",
         },
     },
-LaserChroma = {
+    Magma_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://7758322982",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800252572",
+            ItemID = 7800252572,
+            ItemName = "Magma",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Hunter_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11246309889",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254154978",
+            ItemID = 11254154978,
+            ItemName = "Hunter",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Bats = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://531836446",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873625",
+            ItemID = 531873625,
+            ItemName = "Bats",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2016",
+        },
+    },
+    LaserChroma = {
         Complete = true,
         Display = {
             {
@@ -12128,7 +25665,158 @@ LaserChroma = {
         },
         MeshCount = 1,
     },
-Aurora_K_2021 = {
+    Vines_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15045930187",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091402817",
+            ItemID = 15091402817,
+            ItemName = "Vines",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Skull_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091321393",
+            ItemID = 15091321393,
+            ItemName = "Etched",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Present = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1268314631",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268699212",
+            ItemID = 1268699212,
+            ItemName = "Present",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    Summer_Stickers_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://13905821320",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944151909",
+            ItemID = 13944151514,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Aurora_K_2021 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12169,7 +25857,7 @@ Aurora_K_2021 = {
             Year = "2021",
         },
     },
-Predator = {
+    Predator = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12208,7 +25896,85 @@ Predator = {
             Rarity = "Legendary",
         },
     },
-BlueSeer = {
+    Pepper = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473620934",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473625645",
+            ItemID = 473625645,
+            ItemName = "Brown",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    HL2 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://181689885",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546100",
+            ItemID = 238546100,
+            ItemName = "HL2",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    BlueSeer = {
         Complete = true,
         Display = {
             {
@@ -12292,7 +26058,46 @@ BlueSeer = {
         },
         MeshCount = 1,
     },
-Arctic_G_2022 = {
+    Bit = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://178259396",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238549030",
+            ItemID = 238549030,
+            ItemName = "Bit",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Arctic_G_2022 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12333,7 +26138,36 @@ Arctic_G_2022 = {
             Year = "2022",
         },
     },
-EliteBlue = {
+    Snowglobe_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635576863",
+            ItemID = 15635576863,
+            ItemName = "Snowglobe",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    EliteBlue = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12374,7 +26208,7 @@ EliteBlue = {
             Year = "2017",
         },
     },
-AmericaGun = {
+    AmericaGun = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12413,7 +26247,7 @@ AmericaGun = {
             Rarity = "Classic",
         },
     },
-BloodKnife = {
+    BloodKnife = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12462,7 +26296,7 @@ BloodKnife = {
             Rarity = "Classic",
         },
     },
-Tree = {
+    Tree = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12503,7 +26337,7 @@ Tree = {
             Year = "2015",
         },
     },
-Virtual = {
+    Virtual = {
         Complete = true,
         Display = {
             {
@@ -12592,7 +26426,87 @@ Virtual = {
         },
         MeshCount = 1,
     },
-Frostfade_G_2023 = {
+    IceCamo_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://8275032575",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304767724",
+            ItemID = 8304767724,
+            ItemName = "Ice Camo",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Cheesy = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=161425686",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198455898",
+            ItemID = 198440101,
+            ItemName = "Cheesy",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Frostfade_G_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -12633,7 +26547,157 @@ Frostfade_G_2023 = {
             Year = "2023",
         },
     },
-SunsetGunChroma = {
+    MagmaK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782168732",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133317890",
+            ItemID = 1133317890,
+            ItemName = "Magma",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2017",
+        },
+    },
+    Tree_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834400185",
+            ItemID = 11834400185,
+            ItemName = "Tree",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Wrapped = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5366242489",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331745500",
+            ItemID = 331745500,
+            ItemName = "Wrapped",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2015",
+        },
+    },
+    Jigsaw = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566397",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365569126",
+            ItemID = 365569126,
+            ItemName = "Jigsaw",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    SunsetGunChroma = {
         Complete = true,
         Display = {
             {
@@ -12765,7 +26829,48 @@ SunsetGunChroma = {
         },
         MeshCount = 1,
     },
-Heartblade = {
+    Cane_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://8275031710",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304768700",
+            ItemID = 8304768700,
+            ItemName = "Cane",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Heartblade = {
         Complete = true,
         Display = {
             {
@@ -12828,7 +26933,48 @@ Heartblade = {
         },
         MeshCount = 0,
     },
-Icebreaker = {
+    CandyCorn_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://76315981363183",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=115093067149752",
+            ItemID = 115093067149752,
+            ItemName = "Candy Corn",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Icebreaker = {
         Complete = true,
         Display = {
             {
@@ -12892,7 +27038,47 @@ Icebreaker = {
         },
         MeshCount = 0,
     },
-BonebladeChroma = {
+    Splatter = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=16944380350",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            ChinaItemID = 473626150,
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16964346058",
+            ItemID = 16964346058,
+            ItemName = "Splatter",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    BonebladeChroma = {
         Complete = true,
         Display = {
             {
@@ -13009,7 +27195,48 @@ BonebladeChroma = {
         },
         MeshCount = 1,
     },
-Sparkle = {
+    Stickers_X_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://139997450438464",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=91224254479440",
+            ItemID = 91224254479440,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Sparkle = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -13048,7 +27275,210 @@ Sparkle = {
             Rarity = "Legendary",
         },
     },
-Eternal = {
+    Candle_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5872478022",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5872491708",
+            ItemID = 5872491708,
+            ItemName = "Candle",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Gifts_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534828383",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534856285",
+            ItemID = 4534856285,
+            ItemName = "Gifts",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Spectrum = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://162718300",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198458862",
+            ItemID = 198441038,
+            ItemName = "Spectrum",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Candied_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11809753556",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834435627",
+            ItemID = 11834435627,
+            ItemName = "Candied",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2022",
+        },
+    },
+    Moonlight_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11254380241",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11284143055",
+            ItemID = 11284143055,
+            ItemName = "Moonlight",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Eternal = {
         Complete = true,
         Display = {
             {
@@ -13132,7 +27562,88 @@ Eternal = {
         },
         MeshCount = 1,
     },
-Clockwork = {
+    Frozen_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4528568803",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534857523",
+            ItemID = 4534857523,
+            ItemName = "Frozen",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Floatie_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://18321972013",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322194067",
+            ItemID = 18322194067,
+            ItemName = "Floatie",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Clockwork = {
         Complete = true,
         Display = {
             {
@@ -13226,7 +27737,188 @@ Clockwork = {
         },
         MeshCount = 1,
     },
-Traveler_K_2023 = {
+    CandyCorn_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://84607607123689",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=86405207895194",
+            ItemID = 86405207895194,
+            ItemName = "CandyCorn",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Heartbreak_G_2026 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://102957418708034",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=79235438948261",
+            ItemID = 79235438948261,
+            ItemName = "Heartbreak",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2026",
+        },
+    },
+    Monster = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4210409812",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210941474",
+            ItemID = 4210941474,
+            ItemName = "Monster",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    Sparkle2 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=306914370",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310710191",
+            ItemID = 310710191,
+            ItemName = "Sparkle2",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Soda_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://123130532636657",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=132525981806780",
+            ItemID = 132525981806780,
+            ItemName = "Soda",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Traveler_K_2023 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -13255,7 +27947,86 @@ Traveler_K_2023 = {
             Year = "2023",
         },
     },
-Cursed_K_2024 = {
+    Wavy_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://16846545641",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16960077712",
+            ItemID = 16960077712,
+            ItemName = "Wavy",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Chips = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621164",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473626317",
+            ItemID = 473626317,
+            ItemName = "Blue",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Cursed_K_2024 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -13296,7 +28067,86 @@ Cursed_K_2024 = {
             Year = "2024",
         },
     },
-Blaster = {
+    iRevolver = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://160219396",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203809168",
+            ItemID = 203809168,
+            ItemName = "iRevolver",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    Biogun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4856108482",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659627458",
+            ItemID = 4659627458,
+            ItemName = "Biogun",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Blaster = {
         Complete = true,
         Display = {
             {
@@ -13385,7 +28235,226 @@ Blaster = {
         },
         MeshCount = 1,
     },
-Frostsaber = {
+    Spearmint_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://125101257679057",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=81352860339620",
+            ItemID = 81352860339620,
+            ItemName = "Spearmint",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Sandy = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566396",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365568056",
+            ItemID = 365568056,
+            ItemName = "Sandy",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    CandyCorn_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://88054952272755",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=129781304866793",
+            ItemID = 129781304866793,
+            ItemName = "CandyCorn",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Engraved = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://159670413",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203807690",
+            ItemID = 203807690,
+            ItemName = "Engraved",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Decorated_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://136070215876929",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=124860763249593",
+            ItemID = 124860763249593,
+            ItemName = "Decorated",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Stars_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15383997060",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635574031",
+            ItemID = 15635574031,
+            ItemName = "Stars",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Frostsaber = {
         Complete = true,
         Display = {
             {
@@ -13481,7 +28550,130 @@ Frostsaber = {
         },
         MeshCount = 1,
     },
-TreeKnife2023Chroma = {
+    Runic_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11246439789",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254123390",
+            ItemID = 11254123390,
+            ItemName = "Curse",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Gingerbread_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://8275032201",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304772140",
+            ItemID = 8304772140,
+            ItemName = "Gingerbread",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Gothic_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756611289",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800221141",
+            ItemID = 7800221141,
+            ItemName = "Gothic",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    TreeKnife2023Chroma = {
         Complete = true,
         Display = {
             {
@@ -13827,7 +29019,7 @@ TreeKnife2023Chroma = {
         },
         MeshCount = 6,
     },
-Aurora_G_2021 = {
+    Aurora_G_2021 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -13868,7 +29060,48 @@ Aurora_G_2021 = {
             Year = "2021",
         },
     },
-SwirlyBlade = {
+    MummyG2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.3, 1.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://2513708668",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513741663",
+            ItemID = 2513741663,
+            ItemName = "Mummy",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    SwirlyBlade = {
         Complete = true,
         Display = {
             {
@@ -13932,7 +29165,7 @@ SwirlyBlade = {
         },
         MeshCount = 0,
     },
-Frostfade_K_2023 = {
+    Frostfade_K_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -13973,7 +29206,165 @@ Frostfade_K_2023 = {
             Year = "2023",
         },
     },
-CottonCandy = {
+    Summer_Stickers_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://13895498375",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944129977",
+            ItemID = 13944129596,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Fallout = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=172596465",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=175668592",
+            ItemID = 196752601,
+            ItemName = "Fallout",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Rose_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.355, 3, 0.768),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://10855586895",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12238708500",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12339325736",
+            ItemID = 12339325736,
+            ItemName = "Rose",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Sketch = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://161976144",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203808108",
+            ItemID = 203808108,
+            ItemName = "Sketch",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    CottonCandy = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14012,7 +29403,48 @@ CottonCandy = {
             Rarity = "Legendary",
         },
     },
-Midnight = {
+    HotChocolate_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://105940775587606",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=133307062463653",
+            ItemID = 133307062463653,
+            ItemName = "Hot Chocolate",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Midnight = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14051,7 +29483,7 @@ Midnight = {
             Rarity = "Legendary",
         },
     },
-Splash = {
+    Splash = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14091,7 +29523,89 @@ Splash = {
             Rarity = "Legendary",
         },
     },
-Witched = {
+    PotionG2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2513648149",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513742133",
+            ItemID = 2513742133,
+            ItemName = "Potion",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Tree2017 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1268675577",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268704124",
+            ItemID = 1268704124,
+            ItemName = "Tree",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2017",
+        },
+    },
+    Witched = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14132,7 +29646,7 @@ Witched = {
             Year = "2019",
         },
     },
-VampireAxe = {
+    VampireAxe = {
         Complete = true,
         Display = {
             {
@@ -14196,7 +29710,85 @@ VampireAxe = {
         },
         MeshCount = 0,
     },
-RedFire = {
+    Spitfire = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://159883934",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=159971321",
+            ItemID = 197829561,
+            ItemName = "Spitfire",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    Molten = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.4, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=160570263",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203869308",
+            ItemID = 203869308,
+            ItemName = "Molten",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    RedFire = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14237,7 +29829,7 @@ RedFire = {
             Year = "2017",
         },
     },
-RaygunChroma = {
+    RaygunChroma = {
         Complete = true,
         Display = {
             {
@@ -14416,7 +30008,117 @@ RaygunChroma = {
         },
         MeshCount = 1,
     },
-Aquarium_K_2025 = {
+    Snowflake_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834397133",
+            ItemID = 11834397133,
+            ItemName = "Snowflake",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Bats_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://134605667915149",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=104747488009018",
+            ItemID = 104747488009018,
+            ItemName = "Bats",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Robot_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://16833551908",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16959778188",
+            ItemID = 16959778188,
+            ItemName = "Robot",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Aquarium_K_2025 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14457,7 +30159,7 @@ Aquarium_K_2025 = {
             Year = "2025",
         },
     },
-RedSeer = {
+    RedSeer = {
         Complete = true,
         Display = {
             {
@@ -14541,7 +30243,108 @@ RedSeer = {
         },
         MeshCount = 1,
     },
-UFOKnifeChroma = {
+    Lava_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://125638583962587",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=90170220549489",
+            ItemID = 90170220549489,
+            ItemName = "Lava",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Coal_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726417082",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669784920",
+            ItemID = 2669784920,
+            ItemName = "Coal",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    PopArt_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://91632676208966",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=90526048501163",
+            ItemID = 90526048501163,
+            ItemName = "Pop Art",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    UFOKnifeChroma = {
         Complete = true,
         Display = {
             {
@@ -14650,7 +30453,251 @@ UFOKnifeChroma = {
         },
         MeshCount = 1,
     },
-MLG = {
+    Dungeon = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210409814",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210920512",
+            ItemID = 4210920512,
+            ItemName = "Dungeon",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    Slashed_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5929316036",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5929317433",
+            ItemID = 5929317433,
+            ItemName = "Slashed",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    SlimeG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://9309254779",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513742319",
+            ItemID = 2513742319,
+            ItemName = "Slime",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Wanwood = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=159653725",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=192132094",
+            ItemID = 196751441,
+            ItemName = "Wanwood",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Aurora_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534823003",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534860689",
+            ItemID = 4534860689,
+            ItemName = "Aurora",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2019",
+        },
+    },
+    Tropical_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://113497909930790",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=111291962899457",
+            ItemID = 111291962899457,
+            ItemName = "Tropical",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    MLG = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14689,7 +30736,48 @@ MLG = {
             Rarity = "Legendary",
         },
     },
-Energized_G_2025 = {
+    Leaves_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://15081802321",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091400883",
+            ItemID = 15091400883,
+            ItemName = "Leaves",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Energized_G_2025 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -14719,7 +30807,7 @@ Energized_G_2025 = {
             Year = "2025",
         },
     },
-Boneblade = {
+    Boneblade = {
         Complete = true,
         Display = {
             {
@@ -14805,7 +30893,368 @@ Boneblade = {
         },
         MeshCount = 1,
     },
-Hallowgun = {
+    GhostRbx_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11117362816",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11117375743",
+            ItemID = 11117375743,
+            ItemName = "Ghostly",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Choco = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://386204101",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=387874991",
+            ItemID = 387874991,
+            ItemName = "Choco",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Night = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.4, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=159882296",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=159971385",
+            ItemID = 197829003,
+            ItemName = "Night",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Borders = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=155199285",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198453499",
+            ItemID = 198434881,
+            ItemName = "Borders",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Pirate = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "http://www.roblox.com/asset/?id=6932361814",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            ChinaItemID = 6683072559,
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183639867",
+            ItemID = 3183639867,
+            ItemName = "Pirate",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    SketchYT = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://539831264",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=546161470",
+            ItemID = 546161470,
+            ItemName = "Sketchy",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Snowflake_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11830940122",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834437796",
+            ItemID = 11834437796,
+            ItemName = "Snowflake",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Caution = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://48737841",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546422",
+            ItemID = 238546422,
+            ItemName = "Caution",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Frozen_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4528661973",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534873956",
+            ItemID = 4534873956,
+            ItemName = "Frozen",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Hallowgun = {
         Complete = true,
         Display = {
             {
@@ -14874,7 +31323,158 @@ Hallowgun = {
         },
         MeshCount = 0,
     },
-Constellation_G_2024 = {
+    Watcher_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://7757907850",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800256309",
+            ItemID = 7800256309,
+            ItemName = "Watcher",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Ornaments_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6121852598",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121853160",
+            ItemID = 6121853160,
+            ItemName = "Ornaments",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    StickersH_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://91672438499477",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=100461386281007",
+            ItemID = 100461386281007,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Hardened = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183605810",
+            ItemID = 3183605810,
+            ItemName = "Hardened",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Constellation_G_2024 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -14915,7 +31515,353 @@ Constellation_G_2024 = {
             Year = "2024",
         },
     },
-TreeGun2023 = {
+    SlimyK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4210874138",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210932676",
+            ItemID = 4210932676,
+            ItemName = "Slimy",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Snowball_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://101965621704869",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=119914093248842",
+            ItemID = 119914093248842,
+            ItemName = "Snowball",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Melon_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 0.8755),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://13904908523",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Vector3Value",
+                Name = "OriginalPosition",
+                Props = {
+                    Value = Vector3.new(0, 0, 0),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944154336",
+            ItemID = 13944153861,
+            ItemName = "Melon",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Zombie_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091339932",
+            ItemID = 15091339932,
+            ItemName = "Zombie",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Snoop = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621136",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473626150",
+            ItemID = 473626150,
+            ItemName = "Red",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Bunny = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=387874365",
+            ItemID = 387874365,
+            ItemName = "Bunny",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Brush = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5435976404",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365568602",
+            ItemID = 365568602,
+            ItemName = "Brush",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Swirl_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8294015413",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304757110",
+            ItemID = 8304757110,
+            ItemName = "Swirl",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Carrots_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://137285542474252",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=76914260444878",
+            ItemID = 76914260444878,
+            ItemName = "Carrots",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    TreeGun2023 = {
         Complete = true,
         Display = {
             {
@@ -15180,7 +32126,7 @@ TreeGun2023 = {
         },
         MeshCount = 5,
     },
-GhostKnife = {
+    GhostKnife = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -15268,7 +32214,7 @@ GhostKnife = {
             Rarity = "Classic",
         },
     },
-AuroraKnife = {
+    AuroraKnife = {
         Complete = true,
         Display = {
             {
@@ -15332,7 +32278,48 @@ AuroraKnife = {
         },
         MeshCount = 0,
     },
-VampireGunChroma = {
+    Starry_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://8303507091",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304772774",
+            ItemID = 8304772774,
+            ItemName = "Starry",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    VampireGunChroma = {
         Complete = true,
         Display = {
             {
@@ -15441,7 +32428,7 @@ VampireGunChroma = {
         },
         MeshCount = 1,
     },
-Spectral_G_2021 = {
+    Spectral_G_2021 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -15482,7 +32469,347 @@ Spectral_G_2021 = {
             Year = "2021",
         },
     },
-Vampire_K_2022 = {
+    BatsK = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 3, 0.7),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513732731",
+            ItemID = 2513732731,
+            ItemName = "Bats",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Goo = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 2.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=178402851",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=237336076",
+            ItemID = 237336076,
+            ItemName = "Goo",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Frostflame_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://76059118984667",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=114781759936576",
+            ItemID = 114781759936576,
+            ItemName = "Frostflame",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    News = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://178238688",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=238546032",
+            ItemID = 238546032,
+            ItemName = "News",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Chick_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://116056287470892",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=116361515042274",
+            ItemID = 116361515042274,
+            ItemName = "Chick",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Stickers_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7757619418",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800229084",
+            ItemID = 7800229084,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Eggs = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=387875405",
+            ItemID = 387875405,
+            ItemName = "Egg",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Hologram_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://139678078674313",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=77773918675860",
+            ItemID = 77773918675860,
+            ItemName = "Hologram",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Witch = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://531836445",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873553",
+            ItemID = 531873553,
+            ItemName = "Witch",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2016",
+        },
+    },
+    Vampire_K_2022 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -15523,7 +32850,264 @@ Vampire_K_2022 = {
             Year = "2022",
         },
     },
-Cavern_K_2019 = {
+    Indy = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=240943629",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=305506951",
+            ItemID = 305506951,
+            ItemName = "Indy",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    PopArt_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://71491705339389",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=123269723073737",
+            ItemID = 123269723073737,
+            ItemName = "Pop Art",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Snowflake_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15351058932",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635575718",
+            ItemID = 15635575718,
+            ItemName = "Snowflake",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Stalker = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198455980",
+            ItemID = 198439107,
+            ItemName = "Stalker",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Sparkle8 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306913268 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310714407",
+            ItemID = 310714407,
+            ItemName = "Sparkle8",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Wrapped_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726770302",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669787533",
+            ItemID = 2669787533,
+            ItemName = "Wrapped",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    ToxicK = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 3, 0.7),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513734535",
+            ItemID = 2513734535,
+            ItemName = "Toxic",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    Cavern_K_2019 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -15564,7 +33148,88 @@ Cavern_K_2019 = {
             Year = "2019",
         },
     },
-OverseerKnife = {
+    Carrot_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://16856497935",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=16960082652",
+            ItemID = 16960082652,
+            ItemName = "Carrot",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    CandyCorn_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.4, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://5866371945",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866454590",
+            ItemID = 5866454590,
+            ItemName = "Candy Corn",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    OverseerKnife = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -15603,7 +33268,251 @@ OverseerKnife = {
             Rarity = "Legendary",
         },
     },
-NikKnife = {
+    Heart_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.355, 3, 0.768),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://10855586895",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://12248435132",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12339327069",
+            ItemID = 12339327069,
+            ItemName = "Heart",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    Combat2 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=6932358967",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4972196241",
+            ItemID = 4972196241,
+            ItemName = "Combat II",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Frozen_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15344638282",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635571468",
+            ItemID = 15635571468,
+            ItemName = "Frozen",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Tree_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11810684576",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834441321",
+            ItemID = 11834441321,
+            ItemName = "Tree",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Aliens_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://7758881558",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800250906",
+            ItemID = 7800250906,
+            ItemName = "Aliens",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Frosted_G_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://4528661069",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534866678",
+            ItemID = 4534866678,
+            ItemName = "Frosted",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    NikKnife = {
         Complete = true,
         Display = {
             {
@@ -15692,7 +33601,7 @@ NikKnife = {
         },
         MeshCount = 1,
     },
-GingerLuger = {
+    GingerLuger = {
         Complete = true,
         Display = {
             {
@@ -15783,7 +33692,87 @@ GingerLuger = {
         },
         MeshCount = 1,
     },
-Fusion = {
+    Galaxy = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=192367012",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=192480941",
+            ItemID = 196750422,
+            ItemName = "Galaxy",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    RIP = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://4210409923",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4210947993",
+            ItemID = 4210947993,
+            ItemName = "RIP",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2019",
+        },
+    },
+    Fusion = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -15822,7 +33811,7 @@ Fusion = {
             Rarity = "Legendary",
         },
     },
-Ripper_K_2020 = {
+    Ripper_K_2020 = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -15851,7 +33840,36 @@ Ripper_K_2020 = {
             Year = "2020",
         },
     },
-SharkChroma = {
+    Sunny_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://105937622090347",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=93906279038399",
+            ItemID = 93906279038399,
+            ItemName = "Sunny",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Season = 1,
+        },
+    },
+    SharkChroma = {
         Complete = true,
         Display = {
             {
@@ -15971,7 +33989,210 @@ SharkChroma = {
         },
         MeshCount = 1,
     },
-VampireGun = {
+    Tiger = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://3183403283",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183606579",
+            ItemID = 3183606579,
+            ItemName = "Tiger",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    CandyCorn = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782530105",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133337797",
+            ItemID = 1133337797,
+            ItemName = "CandyCorn",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2017",
+        },
+    },
+    VoidRbx = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11548074269",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11548082732",
+            ItemID = 11548082732,
+            ItemName = "Void",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    WitchBrew_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://101625224396969",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=108331177567412",
+            ItemID = 108331177567412,
+            ItemName = "Witch's Brew",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Coconut_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://97056994207188",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=75237025203058",
+            ItemID = 75237025203058,
+            ItemName = "Coconut",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    VampireGun = {
         Complete = true,
         Display = {
             {
@@ -16035,7 +34256,48 @@ VampireGun = {
         },
         MeshCount = 0,
     },
-AmericaSword = {
+    Snowman_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726475301",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669786846",
+            ItemID = 2669786846,
+            ItemName = "Snowman",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    AmericaSword = {
         Complete = true,
         Display = {
             {
@@ -16268,7 +34530,78 @@ AmericaSword = {
         },
         MeshCount = 1,
     },
-Eternal4 = {
+    Stickers_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://72308464511333",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=75123474631661",
+            ItemID = 75123474631661,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    BatsG = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2513648112",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513741174",
+            ItemID = 2513741174,
+            ItemName = "Bats",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Eternal4 = {
         Complete = true,
         Display = {
             {
@@ -16353,7 +34686,7 @@ Eternal4 = {
         },
         MeshCount = 1,
     },
-HeartWandChroma = {
+    HeartWandChroma = {
         Complete = true,
         Display = {
             {
@@ -16463,7 +34796,7 @@ HeartWandChroma = {
         },
         MeshCount = 1,
     },
-SweetChroma = {
+    SweetChroma = {
         Complete = true,
         Display = {
             {
@@ -16573,7 +34906,77 @@ SweetChroma = {
         },
         MeshCount = 1,
     },
-Splash_G = {
+    Stockings_K_2022 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834392930",
+            ItemID = 11834392930,
+            ItemName = "Stockings",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Pool_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://139564868386734",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=112511843095202",
+            ItemID = 112511843095202,
+            ItemName = "Pool",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Splash_G = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -16613,7 +35016,46 @@ Splash_G = {
             Season = 1,
         },
     },
-ChromaDarkbringer = {
+    Sidewinder = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://295302778",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=305503783",
+            ItemID = 305503783,
+            ItemName = "Sidewinder",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    ChromaDarkbringer = {
         Complete = true,
         Display = {
             {
@@ -16734,7 +35176,467 @@ ChromaDarkbringer = {
         },
         MeshCount = 1,
     },
-Shark = {
+    Gingerbread_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11810420546",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834442414",
+            ItemID = 11834442414,
+            ItemName = "Gingerbread",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Stockings_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11831384378",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834440319",
+            ItemID = 11834440319,
+            ItemName = "Stockings",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    Stickers_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.18, 1.35),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://7758615144",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800257010",
+            ItemID = 7800257010,
+            ItemName = "Stickers",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Ghosts_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5866362606",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866442790",
+            ItemID = 5866442790,
+            ItemName = "Ghosts",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Nova = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://198766824 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            ChinaItemID = 6711924013,
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235371686",
+            ItemID = 235371686,
+            ItemName = "Nova",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Stockings_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://119326169521320",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=76288270695961",
+            ItemID = 76288270695961,
+            ItemName = "Stockings",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Striped_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://105991246402157",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=118530164125152",
+            ItemID = 118530164125152,
+            ItemName = "Striped",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Galactic = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=173912996",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=173913533",
+            ItemID = 196752683,
+            ItemName = "Galactic",
+            ItemType = "Gun",
+            Rarity = "Rare",
+        },
+    },
+    Corl = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://545392975",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=546161858",
+            ItemID = 546161858,
+            ItemName = "Corl",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Infiltrator = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://156265112",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203806022",
+            ItemID = 203806022,
+            ItemName = "Infiltrator",
+            ItemType = "Gun",
+            Rarity = "Common",
+        },
+    },
+    Clan = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://161495171",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235366460",
+            ItemID = 235366460,
+            ItemName = "Clan",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    PotionK2018 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 3, 0.7),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513733987",
+            ItemID = 2513733987,
+            ItemName = "Potion",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    Shark = {
         Complete = true,
         Display = {
             {
@@ -16823,7 +35725,209 @@ Shark = {
         },
         MeshCount = 1,
     },
-Broken_K_2023 = {
+    Sweetheart = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://363142139",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=363150761",
+            ItemID = 363150761,
+            ItemName = "Sweetheart",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Tree_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8275034131",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304756423",
+            ItemID = 8304756423,
+            ItemName = "Tree",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    DefaultGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "http://www.roblox.com/asset/?id=91723031",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=197518111",
+            ItemID = 196751820,
+            ItemName = "Default Gun",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Gingerbread_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534824961",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534856940",
+            ItemID = 4534856940,
+            ItemName = "Gingerbread",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    MummyK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782155617",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133352032",
+            ItemID = 1133352032,
+            ItemName = "Mummy",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2017",
+        },
+    },
+    Broken_K_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -16863,7 +35967,248 @@ Broken_K_2023 = {
             Season = 1,
         },
     },
-Ginger_G_2018 = {
+    Sleigh_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://85646229893233",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=74917318027165",
+            ItemID = 74917318027165,
+            ItemName = "Sleigh",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    Moon_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://7756612294",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=7800224197",
+            ItemID = 7800224197,
+            ItemName = "Moon",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2021",
+        },
+    },
+    Kool = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://473621021",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=473625906",
+            ItemID = 473625906,
+            ItemName = "Yellow",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Fragile_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://12942152157",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=12965349193",
+            ItemID = 12965349193,
+            ItemName = "Fragile",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Snowy2017 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://9308765927",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268705947",
+            ItemID = 1268705947,
+            ItemName = "Snowy",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2017",
+        },
+    },
+    Sparkle3 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306916804 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310710694",
+            ItemID = 310710694,
+            ItemName = "Sparkle3",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Ginger_G_2018 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -16904,7 +36249,187 @@ Ginger_G_2018 = {
             Year = "2018",
         },
     },
-Darksword = {
+    Paws_G_2026 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://108504597564281",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=120089556380493",
+            ItemID = 120089556380493,
+            ItemName = "Paws",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2026",
+        },
+    },
+    Dark_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091343579",
+            ItemID = 15091343579,
+            ItemName = "Darkknife",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Lucky = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566400",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365569265",
+            ItemID = 365569265,
+            ItemName = "Lucky",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Trees_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6123160655",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6123336879",
+            ItemID = 6123336879,
+            ItemName = "Trees",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    Survivors_K_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://11218956882",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11254180750",
+            ItemID = 11254180750,
+            ItemName = "Makeshift",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2022",
+        },
+    },
+    Darksword = {
         Complete = true,
         Display = {
             {
@@ -16990,7 +36515,7 @@ Darksword = {
         },
         MeshCount = 1,
     },
-Makeshift = {
+    Makeshift = {
         Complete = true,
         Display = {
             {
@@ -17054,7 +36579,7 @@ Makeshift = {
         },
         MeshCount = 0,
     },
-Snowcannon = {
+    Snowcannon = {
         Complete = true,
         Display = {
             {
@@ -17210,7 +36735,88 @@ Snowcannon = {
         },
         MeshCount = 1,
     },
-Peppermint = {
+    Starfish_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://18321970590",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=18322189584",
+            ItemID = 18322189584,
+            ItemName = "Starfish",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Portal_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5866364902",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866444722",
+            ItemID = 5866444722,
+            ItemName = "Portal",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2020",
+        },
+    },
+    Peppermint = {
         Complete = true,
         Display = {
             {
@@ -17296,7 +36902,48 @@ Peppermint = {
         },
         MeshCount = 1,
     },
-Gingermint_G = {
+    Gift_K_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://6121854102",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121854816",
+            ItemID = 6121854816,
+            ItemName = "Wrap",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Gingermint_G = {
         Complete = true,
         Display = {
             {
@@ -17382,7 +37029,78 @@ Gingermint_G = {
         },
         MeshCount = 1,
     },
-CandleflameChroma = {
+    Wreaths_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://100835235112831",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=78432760615312",
+            ItemID = 78432760615312,
+            ItemName = "Wreaths",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Hologram_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://130121703557220",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=108751717527377",
+            ItemID = 108751717527377,
+            ItemName = "Hologram",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    CandleflameChroma = {
         Complete = true,
         Display = {
             {
@@ -17499,7 +37217,48 @@ CandleflameChroma = {
         },
         MeshCount = 1,
     },
-Knife1 = {
+    Ghastly_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15045716708",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091342564",
+            ItemID = 15091342564,
+            ItemName = "Ghastly",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Knife1 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -17553,7 +37312,46 @@ Knife1 = {
             Rarity = "Classic",
         },
     },
-Flora = {
+    Sparkle1 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://306912202 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=310709709",
+            ItemID = 310709709,
+            ItemName = "Sparkle1",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Flora = {
         Complete = true,
         Display = {
             {
@@ -17616,7 +37414,7 @@ Flora = {
         },
         MeshCount = 0,
     },
-BlizzardChroma = {
+    BlizzardChroma = {
         Complete = true,
         Display = {
             {
@@ -17725,7 +37523,257 @@ BlizzardChroma = {
         },
         MeshCount = 1,
     },
-Latte_K_2023 = {
+    Toy_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.595),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://13884851371",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            },
+            {
+                Class = "Vector3Value",
+                Name = "OriginalPosition",
+                Props = {
+                    Value = Vector3.new(0, 0, 0),
+                },
+            }
+        },
+        Meta = {
+            Image = "rbxassetid://13944128440",
+            ItemID = 13944127959,
+            ItemName = "Toy",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    Squire = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://243372276",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501560",
+            ItemID = 315501560,
+            ItemName = "Squire",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    Stickers_X_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://109835260607049",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=83843575465564",
+            ItemID = 83843575465564,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Holly_K_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2684783115",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669638990",
+            ItemID = 2669638990,
+            ItemName = "Holly",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2018",
+        },
+    },
+    StickersX_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://130231206599976",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=102283625659356",
+            ItemID = 102283625659356,
+            ItemName = "Stickers",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Clown_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://83300450889998",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=71982363966070",
+            ItemID = 71982363966070,
+            ItemName = "Clown",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Latte_K_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -17765,7 +37813,7 @@ Latte_K_2023 = {
             Season = 1,
         },
     },
-Chromatic_G_2023 = {
+    Chromatic_G_2023 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -17805,7 +37853,7 @@ Chromatic_G_2023 = {
             Season = 1,
         },
     },
-Frostbite = {
+    Frostbite = {
         Complete = true,
         Display = {
             {
@@ -17891,7 +37939,7 @@ Frostbite = {
         },
         MeshCount = 1,
     },
-Cookieblade = {
+    Cookieblade = {
         Complete = true,
         Display = {
             {
@@ -17955,7 +38003,7 @@ Cookieblade = {
         },
         MeshCount = 0,
     },
-ScratchBlue = {
+    ScratchBlue = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -17996,7 +38044,7 @@ ScratchBlue = {
             Year = "2017",
         },
     },
-SlasherChroma = {
+    SlasherChroma = {
         Complete = true,
         Display = {
             {
@@ -18111,7 +38159,37 @@ SlasherChroma = {
         },
         MeshCount = 1,
     },
-ElderwoodScythe = {
+    Plaid_G_2026 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://100185145262613",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=121681210724670",
+            ItemID = 121681210724670,
+            ItemName = "Plaid",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2026",
+        },
+    },
+    ElderwoodScythe = {
         Complete = true,
         Display = {
             {
@@ -18175,7 +38253,500 @@ ElderwoodScythe = {
         },
         MeshCount = 0,
     },
-Watergun = {
+    Ornaments_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://128273296066714",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=132504094164819",
+            ItemID = 132504094164819,
+            ItemName = "Ornaments",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Storm_K_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://124972846638078",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=97369825731567",
+            ItemID = 97369825731567,
+            ItemName = "Storm",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2024",
+        },
+    },
+    Frosty = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1268375270",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1268704507",
+            ItemID = 1268704507,
+            ItemName = "Frosty",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2017",
+        },
+    },
+    Copper = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://3183401534",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=3183605392",
+            ItemID = 3183605392,
+            ItemName = "Copper",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    OrangeMarble = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=531873011",
+            ItemID = 531873011,
+            ItemName = "Orange Marble",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2016",
+        },
+    },
+    Bells_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635570486",
+            ItemID = 15635570486,
+            ItemName = "Bells",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2023",
+        },
+    },
+    Starry_K_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://8303534347",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304757707",
+            ItemID = 8304757707,
+            ItemName = "Starry",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2021",
+        },
+    },
+    Lights_K_2019 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4534825993",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4534858185",
+            ItemID = 4534858185,
+            ItemName = "Lights",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2019",
+        },
+    },
+    Mummy_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(27, 42, 53),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.4, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "rbxassetid://5866372623",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866463755",
+            ItemID = 5866463755,
+            ItemName = "Mummy",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2020",
+        },
+    },
+    Fireplace_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://15382624195",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635558021",
+            ItemID = 15635558021,
+            ItemName = "Fireplace",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Ginger = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://5353674093",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=331744703",
+            ItemID = 331744703,
+            ItemName = "Ginger",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2015",
+        },
+    },
+    Lovely = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://957726558",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://4659572197",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659635584",
+            ItemID = 4659635584,
+            ItemName = "Lovely",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    ["2015"] = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=199026945",
+            ItemID = 199026945,
+            ItemName = "2015",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Watergun = {
         Complete = true,
         Display = {
             {
@@ -18260,7 +38831,7 @@ Watergun = {
         },
         MeshCount = 1,
     },
-Gingermint_KChroma = {
+    Gingermint_KChroma = {
         Complete = false,
         Display = {
             {
@@ -18358,7 +38929,48 @@ Gingermint_KChroma = {
         },
         MeshCount = 0,
     },
-Saw = {
+    Nutcracker = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5538506180",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497657",
+            ItemID = 332497657,
+            ItemName = "Nutcracker",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2015",
+        },
+    },
+    Saw = {
         Complete = true,
         Display = {
             {
@@ -18442,7 +39054,87 @@ Saw = {
         },
         MeshCount = 1,
     },
-Palms_G_2024 = {
+    LoveGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(99, 95, 98),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.3, 1.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=159686237",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=203867650",
+            ItemID = 203867650,
+            ItemName = "Love",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Potion = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782402938",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133366632",
+            ItemID = 1133366632,
+            ItemName = "Potion",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2017",
+        },
+    },
+    Palms_G_2024 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -18482,7 +39174,46 @@ Palms_G_2024 = {
             Season = 1,
         },
     },
-Gingerblade = {
+    Log = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://365566383",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=365567962",
+            ItemID = 365567962,
+            ItemName = "Log",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Gingerblade = {
         Complete = true,
         Display = {
             {
@@ -18574,7 +39305,178 @@ Gingerblade = {
         },
         MeshCount = 1,
     },
-SwirlyGunChroma = {
+    Ornament1Gun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=332358313",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332497144",
+            ItemID = 332497144,
+            ItemName = "Ornament1",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Ghastly_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091407068",
+            ItemID = 15091407068,
+            ItemName = "Ghastly",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Igloo_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://73071132008000",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=95517099886712",
+            ItemID = 95517099886712,
+            ItemName = "Igloo",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2024",
+        },
+    },
+    Treats_G_2025 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://121735248301175",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=76537883908961",
+            ItemID = 76537883908961,
+            ItemName = "Treats",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2025",
+        },
+    },
+    Strawberries_G_2026 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "MeshPart",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Slate,
+                    MeshId = "rbxassetid://6600918074",
+                    Reflectance = 0,
+                    Size = Vector3.new(1.83, 0.95, 0.325),
+                    TextureID = "rbxassetid://103202994163470",
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Valentines",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=128646835922561",
+            ItemID = 128646835922561,
+            ItemName = "Strawberries",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2026",
+        },
+    },
+    SwirlyGunChroma = {
         Complete = true,
         Display = {
             {
@@ -18691,7 +39593,126 @@ SwirlyGunChroma = {
         },
         MeshCount = 1,
     },
-Scratch = {
+    Slate = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://161577504",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198453556",
+            ItemID = 198434520,
+            ItemName = "Slate",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Neon_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15382654157",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635560825",
+            ItemID = 15635560825,
+            ItemName = "Neon",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Stainless = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://91790701 ",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=235366771",
+            ItemID = 235366771,
+            ItemName = "Stainless",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Scratch = {
         Complete = false,
         MeshCount = 0,
         Display = {
@@ -18720,7 +39741,7 @@ Scratch = {
             Year = "2016",
         },
     },
-TreatChroma = {
+    TreatChroma = {
         Complete = true,
         Display = {
             {
@@ -18830,7 +39851,48 @@ TreatChroma = {
         },
         MeshCount = 1,
     },
-HallowsBlade = {
+    Mistletoe_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11831277409",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11834438982",
+            ItemID = 11834438982,
+            ItemName = "Mistletoe",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    HallowsBlade = {
         Complete = true,
         Display = {
             {
@@ -18924,7 +39986,7 @@ HallowsBlade = {
         },
         MeshCount = 1,
     },
-Nightblade = {
+    Nightblade = {
         Complete = true,
         Display = {
             {
@@ -19018,7 +40080,7 @@ Nightblade = {
         },
         MeshCount = 1,
     },
-Harvester = {
+    Harvester = {
         Complete = true,
         Display = {
             {
@@ -19141,7 +40203,48 @@ Harvester = {
         },
         MeshCount = 0,
     },
-Eternal3 = {
+    ElfGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5364282819",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332767999",
+            ItemID = 332767999,
+            ItemName = "Elf",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Eternal3 = {
         Complete = true,
         Display = {
             {
@@ -19226,7 +40329,85 @@ Eternal3 = {
         },
         MeshCount = 1,
     },
-Pearl_K = {
+    Hearts = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=363311795",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "https://www.roblox.com/asset/?id=363362737",
+            ItemID = 363352211,
+            ItemName = "Hearts",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Oily = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://314421009",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501170",
+            ItemID = 315501170,
+            ItemName = "Oily",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Pearl_K = {
         Complete = true,
         Display = {
             {
@@ -19289,7 +40470,77 @@ Pearl_K = {
         },
         MeshCount = 0,
     },
-TravelerGunChroma = {
+    Eclipse_K_2023 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091404278",
+            ItemID = 15091404278,
+            ItemName = "Eclipse",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
+    },
+    Webs = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://1782366385",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=1133325465",
+            ItemID = 1133325465,
+            ItemName = "Webs",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Year = "2017",
+        },
+    },
+    TravelerGunChroma = {
         Complete = true,
         Display = {
             {
@@ -19398,7 +40649,207 @@ TravelerGunChroma = {
         },
         MeshCount = 1,
     },
-GreenLuger = {
+    Scarf_K_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://15414881863",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15415482999",
+            ItemID = 15415482999,
+            ItemName = "Scarf",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Season = 1,
+        },
+    },
+    SantaGun = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=5359644564",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=332496861",
+            ItemID = 332496861,
+            ItemName = "Santa",
+            ItemType = "Gun",
+            Rarity = "Common",
+            Year = "2015",
+        },
+    },
+    Valentine = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://121944778",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://363139123",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "https://www.roblox.com/asset/?id=363362726",
+            ItemID = 363150149,
+            ItemName = "Valentine",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Dark_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15082826256",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15091406343",
+            ItemID = 15091406343,
+            ItemName = "Darkgun",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2023",
+        },
+    },
+    Rainbow = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=157019835",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=159747377",
+            ItemID = 196750963,
+            ItemName = "Rainbow",
+            ItemType = "Knife",
+            Rarity = "Rare",
+        },
+    },
+    GreenLuger = {
         Complete = true,
         Display = {
             {
@@ -19489,7 +40940,46 @@ GreenLuger = {
         },
         MeshCount = 1,
     },
-Bunnies_K_2025 = {
+    Camo = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.5, 1.5, 1.5),
+                    TextureId = "http://www.roblox.com/asset/?id=160024546",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=160024789",
+            ItemID = 196752456,
+            ItemName = "Camo",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+        },
+    },
+    Bunnies_K_2025 = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -19529,7 +41019,249 @@ Bunnies_K_2025 = {
             Season = 1,
         },
     },
-Icepiercer = {
+    Melon = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://311701292",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=315501369",
+            ItemID = 315501369,
+            ItemName = "Melon",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+        },
+    },
+    Dolphins_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://105839458133429",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Summer",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=133219566412887",
+            ItemID = 133219566412887,
+            ItemName = "Dolphins",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2025",
+        },
+    },
+    Cookie_G_2021 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://8275032831",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=8304771148",
+            ItemID = 8304771148,
+            ItemName = "Cookie",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2021",
+        },
+    },
+    Gingercookie_K_2025 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://6600901997",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://77551638357810",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=111408683823094",
+            ItemID = 111408683823094,
+            ItemName = "Gingercookie",
+            ItemType = "Knife",
+            Rarity = "Rare",
+            Year = "2025",
+        },
+    },
+    Reptile = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 2.8, 1),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "http://www.roblox.com/asset/?id=162671092",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=162672131",
+            ItemID = 197499641,
+            ItemName = "Reptile",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    SilentNight_G_2020 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://6121861331",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=6121862034",
+            ItemID = 6121862034,
+            ItemName = "Silent Night",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2020",
+        },
+    },
+    Icepiercer = {
         Complete = true,
         Display = {
             {
@@ -19628,7 +41360,87 @@ Icepiercer = {
         },
         MeshCount = 0,
     },
-Viper = {
+    Linked = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=121944778  ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://172762850",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/asset/?id=198453528",
+            ItemID = 198433893,
+            ItemName = "Linked",
+            ItemType = "Knife",
+            Rarity = "Common",
+        },
+    },
+    Wrapped_G_2024 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://137311445183389",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "rbxthumb://type=Asset&w=150&h=150&id=109929760056853",
+            ItemID = 109929760056853,
+            ItemName = "Wrapped",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2024",
+        },
+    },
+    Viper = {
         Complete = true,
         MeshCount = 1,
         Display = {
@@ -19667,7 +41479,7 @@ Viper = {
             Rarity = "Legendary",
         },
     },
-Xmas = {
+    Xmas = {
         Complete = true,
         Display = {
             {
@@ -19764,7 +41576,48 @@ Xmas = {
         },
         MeshCount = 1,
     },
-Spider = {
+    Icicles_G_2018 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://2726430730",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2669786044",
+            ItemID = 2669786044,
+            ItemName = "Icicles",
+            ItemType = "Gun",
+            Rarity = "Rare",
+            Year = "2018",
+        },
+    },
+    Spider = {
         Complete = true,
         Display = {
             {
@@ -19864,5 +41717,185 @@ Spider = {
             },
         },
         MeshCount = 1,
+    },
+    Hazard_G_2022 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://11227146152",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=11255505449",
+            ItemID = 11255505449,
+            ItemName = "Hazard",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2022",
+        },
+    },
+    CandyCorn_K_2020 = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=5866435364",
+            ItemID = 5866435364,
+            ItemName = "Candy Corn",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2020",
+        },
+    },
+    GraveK = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.DiamondPlate,
+                    Reflectance = 0.01,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.7),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "rbxassetid://2514683594",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1, 1, 1),
+                    TextureId = "rbxassetid://2513648160",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Halloween",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=2513728474",
+            ItemID = 2513728474,
+            ItemName = "Grave",
+            ItemType = "Knife",
+            Rarity = "Common",
+            Year = "2018",
+        },
+    },
+    Graffiti = {
+        Complete = false,
+        MeshCount = 0,
+        Display = {
+            {
+                Class = "Part",
+                Name = "KnifeDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(17, 17, 17),
+                    Material = Enum.Material.Plastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.4, 3, 0.8),
+                    Transparency = 0,
+                },
+            }
+        },
+        Meta = {
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=4659634630",
+            ItemID = 4659634630,
+            ItemName = "Graffiti",
+            ItemType = "Knife",
+            Rarity = "Uncommon",
+            Season = 1,
+        },
+    },
+    Canes_G_2023 = {
+        Complete = true,
+        MeshCount = 1,
+        Display = {
+            {
+                Class = "Part",
+                Name = "GunDisplay",
+                Path = "(root)",
+                Props = {
+                    CanCollide = false,
+                    Color = Color3.fromRGB(163, 162, 165),
+                    Material = Enum.Material.SmoothPlastic,
+                    Reflectance = 0,
+                    Shape = Enum.PartType.Block,
+                    Size = Vector3.new(0.2, 1.83, 1.03),
+                    Transparency = 0,
+                },
+            },
+            {
+                Class = "SpecialMesh",
+                Name = "Mesh",
+                Props = {
+                    MeshId = "http://www.roblox.com/asset/?id=79401392 ",
+                    MeshType = Enum.MeshType.FileMesh,
+                    Offset = Vector3.new(0, 0, 0),
+                    Scale = Vector3.new(1.6, 1.6, 1.6),
+                    TextureId = "rbxassetid://15383886872",
+                    VertexColor = Vector3.new(1, 1, 1),
+                },
+            }
+        },
+        Meta = {
+            Event = "Christmas",
+            Image = "http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=250&height=250&assetId=15635558982",
+            ItemID = 15635558982,
+            ItemName = "Canes",
+            ItemType = "Gun",
+            Rarity = "Uncommon",
+            Year = "2023",
+        },
     },
 }

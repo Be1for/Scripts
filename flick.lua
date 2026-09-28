@@ -1,3 +1,4 @@
+-- кароче мне похуй,пастите мне не жалко
 local a = 'https://raw.githubusercontent.com/Be1for/UI/refs/heads/main/'
 local b, c, d = loadstring(game:HttpGet(a .. 'UI.luau'))(), loadstring(game:HttpGet(a .. 'addons/ThemeManager.lua'))(), loadstring(game:HttpGet(a .. 'addons/SaveManager.lua'))()
 local e, f = b.Options, b.Toggles

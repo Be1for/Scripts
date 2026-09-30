@@ -1,4 +1,4 @@
-local a, b, c, d, e, f = loadstring(game:HttpGetAsync'https://raw.githubusercontent.com/Be1for/UI/refs/heads/main/candy_cc.luau')(), game:GetService'Players', game:GetService'UserInputService', game:GetService'RunService', game:GetService'Workspace', game:GetService'Lighting'
+local a, b, c, d, e, f = loadstring(game:HttpGetAsync'https://raw.githubusercontent.com/Be1for/UI/refs/heads/main/U.luau')(), game:GetService'Players', game:GetService'UserInputService', game:GetService'RunService', game:GetService'Workspace', game:GetService'Lighting'
 local g, h, i, j = b.LocalPlayer, 16, 50, 196.2
 local k, l, m, n, o, p, q = {
     WalkSpeedEnabled = false,
@@ -15,6 +15,7 @@ local k, l, m, n, o, p, q = {
     KillESP = false,
     Fullbright = false,
     ShiftLock = false,
+    SpawnCFrame = nil,
 }, nil, nil, nil, nil, nil, nil
 
 local function getCharacter()
@@ -298,12 +299,98 @@ c.JumpRequest:Connect(function()
     s.AssemblyLinearVelocity = Vector3.new(s.AssemblyLinearVelocity.X, math.max(t, 50), s.AssemblyLinearVelocity.Z)
 end)
 
-local function onCharacter(r)
+local r
+
+local function stopSpawnForce()
+    if r then
+        r:Disconnect()
+
+        r = nil
+    end
+end
+local function applySpawnTo(s)
+    if not k.SpawnCFrame or not s then
+        return
+    end
+
+    local t = s:FindFirstChild'HumanoidRootPart' or s:FindFirstChild'Torso'
+
+    if not t then
+        return
+    end
+
+    t.CFrame = k.SpawnCFrame
+    t.AssemblyLinearVelocity = Vector3.zero
+    t.AssemblyAngularVelocity = Vector3.zero
+end
+local function startSpawnForce(s)
+    stopSpawnForce()
+
+    if not k.SpawnCFrame or not s then
+        return
+    end
+
+    local t, u = tick() + 4, 0
+
+    r = d.Heartbeat:Connect(function()
+        if not k.SpawnCFrame then
+            stopSpawnForce()
+
+            return
+        end
+        if not s or not s.Parent then
+            stopSpawnForce()
+
+            return
+        end
+
+        local v = s:FindFirstChild'HumanoidRootPart' or s:FindFirstChild'Torso'
+
+        if not v then
+            return
+        end
+
+        local w, x = tick(), (v.Position - k.SpawnCFrame.Position).Magnitude
+
+        if w <= t or x > 12 then
+            if w - u >= 0.05 then
+                u = w
+                v.CFrame = k.SpawnCFrame
+                v.AssemblyLinearVelocity = Vector3.zero
+                v.AssemblyAngularVelocity = Vector3.zero
+            end
+        else
+            stopSpawnForce()
+        end
+    end)
+
+    task.spawn(function()
+        for v, w in ipairs{
+            0.1,
+            0.25,
+            0.5,
+            1,
+            1.5,
+            2,
+            3,
+        }do
+            task.wait(w)
+
+            if s.Parent and k.SpawnCFrame then
+                applySpawnTo(s)
+            end
+        end
+    end)
+end
+local function onCharacter(s)
     task.wait(0.1)
     applyWalkSpeed()
     applyJump()
     applyGravity()
 
+    if k.SpawnCFrame then
+        startSpawnForce(s)
+    end
     if k.Fly then
         startFly()
     end
@@ -314,19 +401,22 @@ local function onCharacter(r)
         startNoclip()
     end
 
-    local s = r:FindFirstChildOfClass'Humanoid' or r:WaitForChild('Humanoid', 5)
+    local t = s:FindFirstChildOfClass'Humanoid' or s:WaitForChild('Humanoid', 5)
 
-    if s then
-        s:GetPropertyChangedSignal'WalkSpeed':Connect(function()
+    if t then
+        t:GetPropertyChangedSignal'WalkSpeed':Connect(function()
             if k.Fly then
                 return
             end
             if not k.WalkSpeedEnabled then
                 return
             end
-            if math.abs(s.WalkSpeed - k.WalkSpeed) > 0.05 then
-                s.WalkSpeed = k.WalkSpeed
+            if math.abs(t.WalkSpeed - k.WalkSpeed) > 0.05 then
+                t.WalkSpeed = k.WalkSpeed
             end
+        end)
+        t.Died:Connect(function()
+            stopSpawnForce()
         end)
     end
 end
@@ -337,54 +427,54 @@ end
 
 g.CharacterAdded:Connect(onCharacter)
 
-local r = a.new{
+local s = a.new{
     Title = 'candy.cc',
     Description = 'Player utilities',
     Keybind = Enum.KeyCode.LeftControl,
 }
 
 task.defer(function()
-    if r.Watermark and r.Watermark.Container then
-        local s = r.Watermark.Container
+    if s.Watermark and s.Watermark.Container then
+        local t = s.Watermark.Container
 
-        s.AnchorPoint = Vector2.new(1, 0)
+        t.AnchorPoint = Vector2.new(1, 0)
 
-        if r.Watermark.SetPosition then
-            r.Watermark.SetPosition(UDim2.new(1, -20, 0, 20))
+        if s.Watermark.SetPosition then
+            s.Watermark.SetPosition(UDim2.new(1, -20, 0, 20))
         else
-            s.Position = UDim2.new(1, -20, 0, 20)
+            t.Position = UDim2.new(1, -20, 0, 20)
         end
     end
 end)
 
-local s = r:NewTab{
+local t = s:NewTab{
     Title = 'Player',
     Description = 'Movement',
     Icon = 'rbxassetid://7733960981',
 }
-local t = s:NewSection{
+local u = t:NewSection{
     Position = 'Left',
     Title = 'Movement',
     Icon = 'rbxassetid://7733960981',
 }
 
-t:NewTitle'WalkSpeed'
-t:NewToggle{
+u:NewTitle'WalkSpeed'
+u:NewToggle{
     Title = 'WalkSpeed Enabled',
     Default = false,
-    Callback = function(u)
-        k.WalkSpeedEnabled = u
+    Callback = function(v)
+        k.WalkSpeedEnabled = v
 
         applyWalkSpeed()
     end,
 }
-t:NewSlider{
+u:NewSlider{
     Title = 'WalkSpeed',
     Min = 1,
     Max = 200,
     Default = h,
-    Callback = function(u)
-        k.WalkSpeed = u
+    Callback = function(v)
+        k.WalkSpeed = v
 
         if k.WalkSpeedEnabled then
             applyWalkSpeed()
@@ -392,57 +482,57 @@ t:NewSlider{
     end,
 }
 
-local u = s:NewSection{
+local v = t:NewSection{
     Position = 'Right',
     Title = 'Jump',
     Icon = 'rbxassetid://7733911828',
 }
 
-u:NewTitle'JumpPower'
-u:NewToggle{
+v:NewTitle'JumpPower'
+v:NewToggle{
     Title = 'JumpPower Enabled',
     Default = false,
-    Callback = function(v)
-        k.JumpEnabled = v
+    Callback = function(w)
+        k.JumpEnabled = w
 
         applyJump()
     end,
 }
-u:NewSlider{
+v:NewSlider{
     Title = 'JumpPower',
     Min = 0,
     Max = 200,
     Default = i,
-    Callback = function(v)
-        k.JumpPower = v
+    Callback = function(w)
+        k.JumpPower = w
 
         if k.JumpEnabled then
             applyJump()
         end
     end,
 }
-u:NewToggle{
+v:NewToggle{
     Title = 'Infinite Jump',
     Default = false,
-    Callback = function(v)
-        k.InfiniteJump = v
+    Callback = function(w)
+        k.InfiniteJump = w
     end,
 }
 
-local v = s:NewSection{
+local w = t:NewSection{
     Position = 'Left',
     Title = 'Fly / Float',
     Icon = 'rbxassetid://7733920644',
 }
 
-v:NewTitle'Flight and air walk'
-v:NewToggle{
+w:NewTitle'Flight and air walk'
+w:NewToggle{
     Title = 'Fly',
     Default = false,
-    Callback = function(w)
-        k.Fly = w
+    Callback = function(x)
+        k.Fly = x
 
-        if w then
+        if x then
             if k.Float then
                 k.Float = false
 
@@ -456,22 +546,22 @@ v:NewToggle{
         end
     end,
 }
-v:NewSlider{
+w:NewSlider{
     Title = 'Fly Speed',
     Min = 10,
     Max = 200,
     Default = 50,
-    Callback = function(w)
-        k.FlySpeed = w
+    Callback = function(x)
+        k.FlySpeed = x
     end,
 }
-v:NewToggle{
+w:NewToggle{
     Title = 'Float / Air Walk',
     Default = false,
-    Callback = function(w)
-        k.Float = w
+    Callback = function(x)
+        k.Float = x
 
-        if w then
+        if x then
             if k.Fly then
                 k.Fly = false
 
@@ -485,50 +575,68 @@ v:NewToggle{
     end,
 }
 
-local w = s:NewSection{
+local x = t:NewSection{
     Position = 'Right',
     Title = 'World / Noclip',
     Icon = 'rbxassetid://7734053495',
 }
 
-w:NewTitle'Gravity and collisions'
-w:NewToggle{
+x:NewTitle'Gravity and collisions'
+x:NewToggle{
     Title = 'Gravity Enabled',
     Default = false,
-    Callback = function(x)
-        k.GravityEnabled = x
+    Callback = function(y)
+        k.GravityEnabled = y
 
         applyGravity()
     end,
 }
-w:NewSlider{
+x:NewSlider{
     Title = 'Gravity',
     Min = 0,
     Max = 300,
     Default = 50,
-    Callback = function(x)
-        k.Gravity = x
+    Callback = function(y)
+        k.Gravity = y
 
         if k.GravityEnabled then
             applyGravity()
         end
     end,
 }
-w:NewToggle{
+x:NewToggle{
     Title = 'Noclip',
     Default = false,
-    Callback = function(x)
-        k.Noclip = x
+    Callback = function(y)
+        k.Noclip = y
 
-        if x then
+        if y then
             startNoclip()
         else
             stopNoclip()
         end
     end,
 }
+x:NewButton{
+    Title = 'Set Spawnpoint',
+    Callback = function()
+        local y = getRoot()
 
-local x, y = {
+        if y then
+            k.SpawnCFrame = y.CFrame
+        end
+    end,
+}
+x:NewButton{
+    Title = 'Reset Spawnpoint',
+    Callback = function()
+        k.SpawnCFrame = nil
+
+        stopSpawnForce()
+    end,
+}
+
+local y, z = {
     killHighlights = {},
     checkpointBillboards = {},
     safeHighlights = {},
@@ -550,75 +658,75 @@ local x, y = {
     'void',
 }
 
-local function nameMatches(z, A)
-    local B = string.lower(tostring(z or ''))
+local function nameMatches(A, B)
+    local C = string.lower(tostring(A or ''))
 
-    for C, D in ipairs(A)do
-        if string.find(B, D, 1, true) then
+    for D, E in ipairs(B)do
+        if string.find(C, E, 1, true) then
             return true
         end
     end
 
     return false
 end
-local function clearHighlights(z)
-    for A, B in pairs(z)do
+local function clearHighlights(A)
+    for B, C in pairs(A)do
         pcall(function()
-            if B and B.Destroy then
-                B:Destroy()
+            if C and C.Destroy then
+                C:Destroy()
             end
         end)
 
-        z[A] = nil
+        A[B] = nil
     end
 end
-local function addKillHighlight(z)
-    if x.killHighlights[z] then
+local function addKillHighlight(A)
+    if y.killHighlights[A] then
         return
     end
-    if not z:IsA'BasePart' then
+    if not A:IsA'BasePart' then
         return
     end
 
-    local A = Instance.new'Highlight'
+    local B = Instance.new'Highlight'
 
-    A.Name = 'CandyKillESP'
-    A.Adornee = z
-    A.FillColor = Color3.fromRGB(255, 40, 40)
-    A.OutlineColor = Color3.fromRGB(255, 120, 120)
-    A.FillTransparency = 0.45
-    A.OutlineTransparency = 0
-    A.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
-    A.Parent = z
-    x.killHighlights[z] = A
+    B.Name = 'CandyKillESP'
+    B.Adornee = A
+    B.FillColor = Color3.fromRGB(255, 40, 40)
+    B.OutlineColor = Color3.fromRGB(255, 120, 120)
+    B.FillTransparency = 0.45
+    B.OutlineTransparency = 0
+    B.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    B.Parent = A
+    y.killHighlights[A] = B
 end
-local function isKillPart(z)
-    if not z:IsA'BasePart' then
+local function isKillPart(A)
+    if not A:IsA'BasePart' then
         return false
     end
-    if nameMatches(z.Name, y) then
+    if nameMatches(A.Name, z) then
         return true
     end
-    if z.Parent and nameMatches(z.Parent.Name, y) then
-        return true
-    end
-
-    local A = z:FindFirstChildOfClass'TouchTransmitter'
-
-    if A and nameMatches(z.Name, y) then
-        return true
-    end
-    if z:GetAttribute'Damage' or z:GetAttribute'Kill' or z:GetAttribute'InstantKill' then
+    if A.Parent and nameMatches(A.Parent.Name, z) then
         return true
     end
 
-    local B = z.Material
+    local B = A:FindFirstChildOfClass'TouchTransmitter'
 
-    if B == Enum.Material.Neon or B == Enum.Material.ForceField then
-        local C = z.Color
+    if B and nameMatches(A.Name, z) then
+        return true
+    end
+    if A:GetAttribute'Damage' or A:GetAttribute'Kill' or A:GetAttribute'InstantKill' then
+        return true
+    end
 
-        if C.R > 0.7 and C.G < 0.35 and C.B < 0.35 then
-            if nameMatches(z.Name, y) or nameMatches(z.Parent and z.Parent.Name or '', y) then
+    local C = A.Material
+
+    if C == Enum.Material.Neon or C == Enum.Material.ForceField then
+        local D = A.Color
+
+        if D.R > 0.7 and D.G < 0.35 and D.B < 0.35 then
+            if nameMatches(A.Name, z) or nameMatches(A.Parent and A.Parent.Name or '', z) then
                 return true
             end
         end
@@ -628,59 +736,59 @@ local function isKillPart(z)
 end
 local function scanWorld()
     if k.KillESP then
-        for z, A in ipairs(e:GetDescendants())do
-            if A:IsA'BasePart' and isKillPart(A) then
-                addKillHighlight(A)
+        for A, B in ipairs(e:GetDescendants())do
+            if B:IsA'BasePart' and isKillPart(B) then
+                addKillHighlight(B)
             end
         end
     end
 end
 local function stopVisualScan()
-    if x.scanConn then
-        x.scanConn:Disconnect()
+    if y.scanConn then
+        y.scanConn:Disconnect()
 
-        x.scanConn = nil
+        y.scanConn = nil
     end
 end
 local function ensureVisualScan()
-    if x.scanConn then
+    if y.scanConn then
         return
     end
 
-    local z = 0
+    local A = 0
 
-    x.scanConn = d.Heartbeat:Connect(function(A)
+    y.scanConn = d.Heartbeat:Connect(function(B)
         if not (k.KillESP) then
             stopVisualScan()
 
             return
         end
 
-        z = z + A
+        A = A + B
 
-        if z >= 1.25 then
-            z = 0
+        if A >= 1.25 then
+            A = 0
 
             pcall(scanWorld)
         end
     end)
 end
-local function setKillESP(z)
-    k.KillESP = z
+local function setKillESP(A)
+    k.KillESP = A
 
-    if not z then
-        clearHighlights(x.killHighlights)
+    if not A then
+        clearHighlights(y.killHighlights)
     else
         scanWorld()
         ensureVisualScan()
     end
 end
-local function setFullbright(z)
-    k.Fullbright = z
+local function setFullbright(A)
+    k.Fullbright = A
 
-    if z then
-        if not x.fullbrightBackup then
-            x.fullbrightBackup = {
+    if A then
+        if not y.fullbrightBackup then
+            y.fullbrightBackup = {
                 Brightness = f.Brightness,
                 ClockTime = f.ClockTime,
                 FogEnd = f.FogEnd,
@@ -699,103 +807,103 @@ local function setFullbright(z)
         f.Ambient = Color3.fromRGB(200, 200, 200)
         f.OutdoorAmbient = Color3.fromRGB(180, 180, 180)
     else
-        local A = x.fullbrightBackup
+        local B = y.fullbrightBackup
 
-        if A then
-            f.Brightness = A.Brightness
-            f.ClockTime = A.ClockTime
-            f.FogEnd = A.FogEnd
-            f.FogStart = A.FogStart
-            f.GlobalShadows = A.GlobalShadows
-            f.Ambient = A.Ambient
-            f.OutdoorAmbient = A.OutdoorAmbient
+        if B then
+            f.Brightness = B.Brightness
+            f.ClockTime = B.ClockTime
+            f.FogEnd = B.FogEnd
+            f.FogStart = B.FogStart
+            f.GlobalShadows = B.GlobalShadows
+            f.Ambient = B.Ambient
+            f.OutdoorAmbient = B.OutdoorAmbient
         end
     end
 end
-local function setShiftLock(z)
-    k.ShiftLock = z
+local function setShiftLock(A)
+    k.ShiftLock = A
 
     pcall(function()
-        g.DevEnableMouseLock = z
+        g.DevEnableMouseLock = A
     end)
     pcall(function()
-        c.MouseBehavior = z and Enum.MouseBehavior.Default or c.MouseBehavior
+        c.MouseBehavior = A and Enum.MouseBehavior.Default or c.MouseBehavior
     end)
 
-    if z then
+    if A then
         pcall(function()
             g.CameraMode = Enum.CameraMode.Classic
         end)
     end
 end
 
-local z = r:NewTab{
+local A = s:NewTab{
     Title = 'Visuals',
     Description = 'ESP & Utility',
     Icon = 'rbxassetid://7733993369',
 }
-local A = z:NewSection{
+local B = A:NewSection{
     Position = 'Left',
     Title = 'ESP',
     Icon = 'rbxassetid://7733993369',
 }
 
-A:NewTitle'World highlights'
-A:NewToggle{
+B:NewTitle'World highlights'
+B:NewToggle{
     Title = 'Killblock / Lava ESP',
     Default = false,
-    Callback = function(B)
-        setKillESP(B)
+    Callback = function(C)
+        setKillESP(C)
     end,
 }
-A:NewButton{
+B:NewButton{
     Title = 'Rescan Map',
     Callback = function()
         pcall(scanWorld)
     end,
 }
 
-local B = z:NewSection{
+local C = A:NewSection{
     Position = 'Right',
     Title = 'Utility',
     Icon = 'rbxassetid://7734053495',
 }
 
-B:NewTitle'Lighting and camera'
-B:NewToggle{
+C:NewTitle'Lighting and camera'
+C:NewToggle{
     Title = 'Fullbright / No Fog',
     Default = false,
-    Callback = function(C)
-        setFullbright(C)
+    Callback = function(D)
+        setFullbright(D)
     end,
 }
-B:NewToggle{
+C:NewToggle{
     Title = 'Shift Lock Switch',
     Default = false,
-    Callback = function(C)
-        setShiftLock(C)
+    Callback = function(D)
+        setShiftLock(D)
     end,
 }
-B:NewButton{
+C:NewButton{
     Title = 'Clear All ESP',
     Callback = function()
         setKillESP(false)
     end,
 }
 task.defer(function()
-    if not r.Tabs then
+    if not s.Tabs then
         return
     end
 
-    local C = 2
+    local D = 2
 
-    if #r.Tabs < 2 then
-        C = 1
+    if #s.Tabs < 2 then
+        D = 1
     end
 
-    for D, E in ipairs(r.Tabs)do
-        if E.onFunction then
-            E.onFunction(D == C)
+    for E, F in ipairs(s.Tabs)do
+        if F.onFunction then
+            F.onFunction(E == D)
         end
     end
 end)
